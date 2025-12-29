@@ -1,0 +1,6 @@
+{
+  "cpu": {
+    "fqbn": "versioduo:samd:beat",
+    "name": "V2 beat"
+  }
+}
