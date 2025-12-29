@@ -156,9 +156,9 @@ public:
                          "A currently active pulse will end if a NoteOff is received. By configuring larger values "
                          "for seconds, this can be used to drive solenoids with the actual note length.\n"
                          "# LEDs\n"
-                         "The color of the channel LED reflect the resistance of the connected solenoid. A red channel LED signals that "
+                         "The colour of the channel LED reflect the resistance of the connected solenoid. A red channel LED signals that "
                          "the channel is short-circuit and internally disabled. The solenoid connection should be checked.\n"
-                         "A magenta-colored flash of all  LEDs shows that the power limit has been reached, and the device is reset. The "
+                         "A magenta-coloured flash of all  LEDs shows that the power limit has been reached, and the device is reset. The "
                          "velocity of the playing notes or the number of simultaneously active tracks should be reduced.";
 
     // https://github.com/versioduo/arduino-board-package/blob/main/boards.txt
