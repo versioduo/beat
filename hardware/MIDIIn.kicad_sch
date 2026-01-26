@@ -1566,7 +1566,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -7.112 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1575,7 +1575,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -4.064 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1602,7 +1602,7 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at -0.254 -10.414 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2027,15 +2027,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 156.21 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a1417ba9-1a7d-406b-93c8-2c84cabf440b")
 		)
@@ -2201,15 +2192,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 140.97 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "82dfbb0d-8516-4e1d-898d-15e75a7677ca")
 		)
@@ -2299,15 +2281,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 157.48 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 167.64 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,15 +2378,6 @@
 		)
 		(property "Manufacturer" "Toshiba"
 			(at 187.96 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 187.96 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,15 +2493,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "be2d873f-5cb6-4995-85c4-09e11be8694e")
 		)
@@ -2628,15 +2583,6 @@
 		)
 		(property "Manufacturer" "Same Sky"
 			(at 116.84 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
