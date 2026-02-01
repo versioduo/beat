@@ -97,6 +97,16 @@
 					(hide yes)
 				)
 			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
@@ -606,7 +616,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Transistor_FET:IQE006NE2LM5CGSC"
+		(symbol "V2_Transistor_FET:IQE006NE2LM5CG"
 			(pin_names
 				(hide yes)
 			)
@@ -622,7 +632,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IQE006NE2LM5CGSC"
+			(property "Value" "IQE006NE2LM5CG"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -660,7 +670,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "726-IQE006NE2LM5CGSC"
+			(property "Mouser" "726-IQE006NE2LM5CGAT"
 				(at 0 -27.94 0)
 				(show_name)
 				(effects
@@ -670,7 +680,7 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "IQE006NE2LM5CGSC"
+			(property "Product" "IQE006NE2LM5CG"
 				(at 0 -25.4 0)
 				(show_name)
 				(effects
@@ -710,7 +720,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "IQE006NE2LM5CGSC_0_1"
+			(symbol "IQE006NE2LM5CG_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -877,7 +887,7 @@
 					)
 				)
 			)
-			(symbol "IQE006NE2LM5CGSC_1_1"
+			(symbol "IQE006NE2LM5CG_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -957,7 +967,7 @@
 				)
 			)
 			(property "Value" "+5V"
-				(at 0 4.064 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -982,7 +992,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" ""
 				(at 0 -14.478 0)
 				(effects
 					(font
@@ -1108,7 +1118,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" ""
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1426,6 +1436,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 146.05 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 146.05 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24e0af13-64dc-4a11-a32e-3e9747f385c2")
 		)
@@ -1536,6 +1564,33 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "50V"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c77c4210-8f48-4345-a1cd-926d1f8c526e")
 		)
@@ -1564,7 +1619,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Transistor_FET:IQE006NE2LM5CGSC")
+		(lib_id "V2_Transistor_FET:IQE006NE2LM5CG")
 		(at 130.81 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1581,8 +1636,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IQE006NE2LM5CGSC"
-			(at 135.89 96.52 0)
+		(property "Value" "IQE006NE2LM5CG"
+			(at 137.16 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "726-IQE006NE2LM5CGSC"
+		(property "Mouser" "726-IQE006NE2LM5CGAT"
 			(at 130.81 124.46 0)
 			(show_name yes)
 			(effects
@@ -1629,7 +1684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "IQE006NE2LM5CGSC"
+		(property "Product" "IQE006NE2LM5CG"
 			(at 130.81 121.92 0)
 			(show_name yes)
 			(effects
@@ -1649,17 +1704,9 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 130.81 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Rating" "25V"
 			(at 130.81 116.84 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1669,6 +1716,25 @@
 		)
 		(property "Polarity" "N"
 			(at 130.81 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 130.81 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 130.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 160.02 127 0)
 			(effects
 				(font
@@ -1865,6 +1931,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pin" ""
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2e4a623-fc46-45e2-bfe9-6e1fad990af5")
 		)
@@ -1943,7 +2027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 133.35 101.6 0)
 			(effects
 				(font
@@ -2020,7 +2104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 160.02 121.92 0)
 			(effects
 				(font

@@ -737,6 +737,12 @@
           "label": "Voltage",
           "name": "Voltage",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Polarity",
+          "name": "Polarity",
+          "show": false
         }
       ],
       "filter_string": "",
