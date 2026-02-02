@@ -365,7 +365,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6544ed55-5242-45d3-907b-723f2ba4c601")
+			(uuid "10399884-8493-4575-b573-edb497c50d9e")
 		)
 		(pad "2" smd roundrect
 			(at -1.5625 0.8375 270)
@@ -385,7 +385,7 @@
 			(net 37 "/Button")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "fd347750-622c-4c58-a2cb-66abee7f4f3b")
+			(uuid "ab0e2c39-c033-44aa-9c1b-247a3d00d3fa")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Button_Switch_SMD.3dshapes/SKSG.step"
@@ -1179,7 +1179,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "5409a5c3-fb78-4756-9874-6b7fd3fd310c")
+			(uuid "0813802a-482a-4b24-be9d-eb02aa02c7ee")
 		)
 		(pad "S" thru_hole oval
 			(at -4.32 -2.675 270)
@@ -1209,7 +1209,7 @@
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.06)
 			(zone_connect 2)
-			(uuid "7446d79c-b2c2-4d9c-b949-9186cb604075")
+			(uuid "fc6d23cf-0832-4e1d-81c6-63e99deff405")
 		)
 		(pad "S" smd roundrect
 			(at -1.4 1.15 270)
@@ -1220,7 +1220,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "7446d79c-b2c2-4d9c-b949-9186cb604075")
+			(uuid "fcd8f4cc-67f9-4729-8bcd-89b85837f22c")
 		)
 		(pad "S" smd roundrect
 			(at 1.4 1.15 270)
@@ -1231,7 +1231,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "7446d79c-b2c2-4d9c-b949-9186cb604075")
+			(uuid "73a537dd-52c7-41cd-bf33-12237f65c068")
 		)
 		(pad "S" thru_hole oval
 			(at 4.32 -2.675 270)
@@ -1246,7 +1246,7 @@
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.06)
 			(zone_connect 2)
-			(uuid "7446d79c-b2c2-4d9c-b949-9186cb604075")
+			(uuid "646bcd32-68f0-427f-aba8-d50f9501a7ae")
 		)
 		(pad "S" thru_hole oval
 			(at 4.32 1.15 270)
@@ -1261,7 +1261,7 @@
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.06)
 			(zone_connect 2)
-			(uuid "7446d79c-b2c2-4d9c-b949-9186cb604075")
+			(uuid "5cb759f2-58d5-4d8a-841e-0865f9addf1e")
 		)
 		(pad "V" smd roundrect
 			(at -2.35 -3.05 270)
@@ -1281,7 +1281,7 @@
 			(net 27 "+5V")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "caf0ea2a-6280-44b8-a6e2-e56257373c57")
+			(uuid "c5d90653-8a72-44c3-8981-722b1dd672c5")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Connector_USB.3dshapes/DX07S016JA1R1500.step"
@@ -2196,7 +2196,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "5bec9405-f6b9-40fc-af9d-67eb0268ebf5")
+			(uuid "619406e6-cbf6-4ea4-acdd-87d296d93f56")
 		)
 		(pad "1" smd roundrect
 			(at -3.725 3)
@@ -2207,7 +2207,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "5bec9405-f6b9-40fc-af9d-67eb0268ebf5")
+			(uuid "086fae9b-206e-42ca-bca7-f5d2815b4a10")
 		)
 		(pad "2" thru_hole circle
 			(at 3.75 -3.5)
@@ -2235,7 +2235,7 @@
 			(pinfunction "T")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "85b5aaca-063b-4e3d-990b-9030c556e3a4")
+			(uuid "7168e005-13bd-4ac7-a28c-f443f5366098")
 		)
 		(pad "2" smd roundrect
 			(at 4.5 -3)
@@ -2246,7 +2246,7 @@
 			(pinfunction "T")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "85b5aaca-063b-4e3d-990b-9030c556e3a4")
+			(uuid "b67e46bc-574a-49d2-9989-e0790d3fa930")
 		)
 		(pad "3" thru_hole circle
 			(at 3.75 2.5)
@@ -2274,7 +2274,7 @@
 			(pinfunction "R1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "c1533c55-577b-4534-8c3d-265ef050e139")
+			(uuid "f385a9f6-de65-458d-b8d8-4ce6da575132")
 		)
 		(pad "3" smd roundrect
 			(at 4.5 3)
@@ -2285,7 +2285,7 @@
 			(pinfunction "R1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "c1533c55-577b-4534-8c3d-265ef050e139")
+			(uuid "cf9b23ac-9704-4437-b192-0bbd271f8c0e")
 		)
 		(pad "4" thru_hole circle
 			(at -4 -3.5)
@@ -2313,7 +2313,7 @@
 			(pinfunction "R2")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0.102)
-			(uuid "68db8147-36fd-4bd2-9463-33cf44801e3d")
+			(uuid "15a45593-f0f8-44e0-8d2a-1576c33ef7be")
 		)
 		(pad "4" smd roundrect
 			(at -3.225 -3)
@@ -2324,7 +2324,7 @@
 			(pinfunction "R2")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0.102)
-			(uuid "68db8147-36fd-4bd2-9463-33cf44801e3d")
+			(uuid "9100ab53-d2c1-497a-9fe9-8fe1702612f3")
 		)
 		(pad "10" thru_hole circle
 			(at 4.5 -1)
@@ -2349,7 +2349,7 @@
 			(pinfunction "SW")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0.102)
-			(uuid "292fe278-c812-4ca3-8717-fb7786af0158")
+			(uuid "3294f522-2d66-4817-95a3-aad7c3f5d3d8")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Connector_Audio.3dshapes/SJ2-25404B-SMT-TR.step"
@@ -3057,7 +3057,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "a9da3346-c301-455e-bca7-f92a741878c1")
+			(uuid "f5002d05-793c-4eb0-9ab4-7e61c68d237a")
 		)
 		(pad "1" smd rect
 			(at -0.325 1.55 270)
@@ -3066,7 +3066,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "a9da3346-c301-455e-bca7-f92a741878c1")
+			(uuid "dfc9c7f8-f1d6-48ee-af12-bfb3026be182")
 		)
 		(pad "1" thru_hole circle
 			(at -0.002172 0.138915 270)
@@ -3079,7 +3079,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "a9da3346-c301-455e-bca7-f92a741878c1")
+			(uuid "e59b73ef-2f57-4357-a497-cf8ccb69fe11")
 		)
 		(pad "1" smd rect
 			(at 0 0.708)
@@ -3088,7 +3088,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "a9da3346-c301-455e-bca7-f92a741878c1")
+			(uuid "46464360-15c1-4e7e-bb05-9aff35d4328c")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0.75 270)
@@ -3101,7 +3101,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "a9da3346-c301-455e-bca7-f92a741878c1")
+			(uuid "ca83a4d6-2fe7-40ca-b84d-c948e98328bc")
 		)
 		(pad "1" smd rect
 			(at 0.325 1.55 270)
@@ -3110,7 +3110,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "a9da3346-c301-455e-bca7-f92a741878c1")
+			(uuid "a3dfc56d-b156-44f4-a750-9b001ae757a9")
 		)
 		(pad "1" smd rect
 			(at 0.365 -0.117)
@@ -3119,7 +3119,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "a9da3346-c301-455e-bca7-f92a741878c1")
+			(uuid "fdbdfacf-0c7a-41b4-8921-e6469bb44fe4")
 		)
 		(pad "1" smd rect
 			(at 0.975 1.55 270)
@@ -3128,7 +3128,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "a9da3346-c301-455e-bca7-f92a741878c1")
+			(uuid "493fccbf-f550-4340-8f99-fa1b1a8df40f")
 		)
 		(pad "1" thru_hole circle
 			(at 1 0.75 270)
@@ -3141,7 +3141,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "a9da3346-c301-455e-bca7-f92a741878c1")
+			(uuid "02ba0489-e0a1-4789-a264-dfa85c3c1c83")
 		)
 		(pad "1" thru_hole circle
 			(at 1.004073 0.142349 270)
@@ -3154,7 +3154,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "a9da3346-c301-455e-bca7-f92a741878c1")
+			(uuid "b564b319-5951-4853-8f7e-418288a3c5f2")
 		)
 		(pad "5" smd rect
 			(at -0.975 -1.675 270)
@@ -3172,7 +3172,7 @@
 			(net 63 "/PWMOut4")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "41417bf4-dfbd-4774-abeb-9b35d3f43c5f")
+			(uuid "1379ffd7-0871-4106-99c5-07094089ff83")
 		)
 		(pad "5" smd rect
 			(at 0 -1.275)
@@ -3181,7 +3181,7 @@
 			(net 63 "/PWMOut4")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "41417bf4-dfbd-4774-abeb-9b35d3f43c5f")
+			(uuid "90f3517e-c6d6-4bd7-987d-6ab77bb66390")
 		)
 		(pad "5" smd rect
 			(at 0.325 -1.675 270)
@@ -3190,7 +3190,7 @@
 			(net 63 "/PWMOut4")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "41417bf4-dfbd-4774-abeb-9b35d3f43c5f")
+			(uuid "48b49c94-cc29-4525-8371-60308b546850")
 		)
 		(pad "5" smd rect
 			(at 0.975 -1.675 270)
@@ -3199,7 +3199,7 @@
 			(net 63 "/PWMOut4")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "41417bf4-dfbd-4774-abeb-9b35d3f43c5f")
+			(uuid "d0196fab-98d8-4484-9dec-052d6b369dd2")
 		)
 		(pad "9" smd rect
 			(at -1.35 -0.395)
@@ -4096,7 +4096,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "c98c4933-8d26-42c6-9d92-708f78f1f0f3")
 		)
 		(pad "49" thru_hole circle
 			(at -2.4 0)
@@ -4111,7 +4111,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "504703c9-11c6-478f-abd7-fcd33484df90")
 		)
 		(pad "49" thru_hole circle
 			(at -2.4 1.2)
@@ -4126,7 +4126,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "9d65a7b7-0569-4629-a26d-3eca917fca87")
 		)
 		(pad "49" thru_hole circle
 			(at -2.4 2.4)
@@ -4141,7 +4141,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "83ed8c5d-5fb0-4b46-8d80-0aea62401b1f")
 		)
 		(pad "49" thru_hole circle
 			(at -1.2 -2.4)
@@ -4156,7 +4156,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "f1663fd4-313a-4e1f-b6d8-8c00989c479a")
 		)
 		(pad "49" thru_hole circle
 			(at -1.2 -1.2)
@@ -4171,7 +4171,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "c9bd1ac1-123f-46a6-a6f7-1714f316a74d")
 		)
 		(pad "49" thru_hole circle
 			(at -1.2 0)
@@ -4186,7 +4186,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "21a262bf-2dca-4a1e-bb6b-a7f06df1584b")
 		)
 		(pad "49" thru_hole circle
 			(at -1.2 1.2)
@@ -4201,7 +4201,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "9babaa27-0f1e-4e9b-8230-a5a1d92b206e")
 		)
 		(pad "49" thru_hole circle
 			(at -1.2 2.4)
@@ -4216,7 +4216,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "f7ea58d9-03d3-4675-a7aa-1a9aee9d2527")
 		)
 		(pad "49" thru_hole circle
 			(at 0 -2.4)
@@ -4231,7 +4231,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "dbe6e900-3e2b-44cb-84e4-a0f7f767da13")
 		)
 		(pad "49" thru_hole circle
 			(at 0 -1.2)
@@ -4246,7 +4246,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "cc43536b-ee00-4b51-9f14-9a28c3bcb56f")
 		)
 		(pad "49" thru_hole circle
 			(at 0 0)
@@ -4261,7 +4261,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "129e618e-3930-4598-b642-4b3b73edbf5c")
 		)
 		(pad "49" smd custom
 			(at 0 0)
@@ -4283,7 +4283,7 @@
 					(fill no)
 				)
 			)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "2e597d3c-745d-4b46-b28a-d2d4246c705e")
 		)
 		(pad "49" thru_hole circle
 			(at 0 1.2)
@@ -4298,7 +4298,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "8944771d-0fa0-4f8f-8b8d-0f22deaa58d9")
 		)
 		(pad "49" thru_hole circle
 			(at 0 2.4)
@@ -4313,7 +4313,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "c765298e-8136-4e7f-81d9-36cd709a35f0")
 		)
 		(pad "49" thru_hole circle
 			(at 1.2 -2.4)
@@ -4328,7 +4328,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "e1691dd3-3373-441c-b623-77725bf2a17a")
 		)
 		(pad "49" thru_hole circle
 			(at 1.2 -1.2)
@@ -4343,7 +4343,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "e9d62742-b749-4e0f-aaaa-927ad4b95fca")
 		)
 		(pad "49" thru_hole circle
 			(at 1.2 0)
@@ -4358,7 +4358,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "33d2918f-cba9-4089-951c-db662538812a")
 		)
 		(pad "49" thru_hole circle
 			(at 1.2 1.2)
@@ -4373,7 +4373,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "1f2a7624-aae2-4420-b989-7a745866f267")
 		)
 		(pad "49" thru_hole circle
 			(at 1.2 2.4)
@@ -4388,7 +4388,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "d082d880-4aef-4ec4-9c88-842d793ad741")
 		)
 		(pad "49" thru_hole circle
 			(at 2.4 -2.4)
@@ -4403,7 +4403,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "e615b4e4-6243-4bd5-8441-3de59bac6cb6")
 		)
 		(pad "49" thru_hole circle
 			(at 2.4 -1.2)
@@ -4418,7 +4418,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "c7c14d25-ca2d-4a23-9bde-079fa5c92ebc")
 		)
 		(pad "49" thru_hole circle
 			(at 2.4 0)
@@ -4433,7 +4433,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "219b722c-e3cd-4bcb-9150-81cd04b59680")
 		)
 		(pad "49" thru_hole circle
 			(at 2.4 1.2)
@@ -4448,7 +4448,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "27a5e2ab-0278-4c24-ab6b-f54bede36d5b")
 		)
 		(pad "49" thru_hole circle
 			(at 2.4 2.4)
@@ -4463,7 +4463,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "06a9fc21-0482-4d52-9367-272187787d1b")
+			(uuid "97f0a386-3eee-422a-8837-4f36887f6987")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.step"
@@ -4916,7 +4916,7 @@
 			(pintype "power_in")
 			(zone_connect 2)
 			(thermal_bridge_angle 90)
-			(uuid "c7908012-8a02-49ab-ae7e-48f7c6f53428")
+			(uuid "ed44300c-64f2-49d6-9696-8d6cb4936c05")
 		)
 		(pad "2" smd circle
 			(at 2.54 1.27 180)
@@ -4952,7 +4952,7 @@
 			(pintype "power_in")
 			(zone_connect 2)
 			(thermal_bridge_angle 90)
-			(uuid "b66a2437-e2ce-44ec-b07c-82801166cbee")
+			(uuid "9648e66e-0fdf-4852-905a-a196d1f6e221")
 		)
 		(pad "4" smd circle
 			(at 1.27 1.27 180)
@@ -4988,7 +4988,7 @@
 			(pintype "passive")
 			(zone_connect 2)
 			(thermal_bridge_angle 90)
-			(uuid "2c4b5f83-b17e-4e42-9473-753b3219df2e")
+			(uuid "3cc1059a-166a-4db5-8951-244cf5a5ab03")
 		)
 		(pad "10" smd circle
 			(at -2.54 1.27 180)
@@ -5374,7 +5374,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "38987038-9725-4f18-a092-341db14aa86c")
+			(uuid "ae69aad0-0079-4337-8171-8fafde387455")
 		)
 		(pad "9" smd rect
 			(at 0 0 270)
@@ -5383,7 +5383,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "38987038-9725-4f18-a092-341db14aa86c")
+			(uuid "a557343d-fd32-4c1d-b27f-9f5f141c6f5f")
 		)
 		(pad "9" thru_hole circle
 			(at 0 0.75 270)
@@ -5396,7 +5396,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "38987038-9725-4f18-a092-341db14aa86c")
+			(uuid "a6bb73d5-4682-41f3-bcab-e72799468a62")
 		)
 		(pad "9" thru_hole circle
 			(at 0.5 0 270)
@@ -5409,7 +5409,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "38987038-9725-4f18-a092-341db14aa86c")
+			(uuid "6fc14783-778e-41ff-b815-b5bf33435887")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Package_SON.3dshapes/Texas_S-PVSON-N8.wrl"
@@ -5725,7 +5725,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "054223df-2c17-48cb-94c4-1f31c88ca31b")
+			(uuid "347c5437-11c2-4c74-8f95-f948089380bf")
 		)
 		(pad "1" smd rect
 			(at -0.325 1.55 270)
@@ -5734,7 +5734,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "054223df-2c17-48cb-94c4-1f31c88ca31b")
+			(uuid "6494a7b4-2d3b-4b22-aab6-63a6a9e428c5")
 		)
 		(pad "1" thru_hole circle
 			(at -0.002172 0.138915 270)
@@ -5747,7 +5747,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "054223df-2c17-48cb-94c4-1f31c88ca31b")
+			(uuid "37a8292e-a5d8-44dc-a83a-ddb537c21665")
 		)
 		(pad "1" smd rect
 			(at 0 0.708)
@@ -5756,7 +5756,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "054223df-2c17-48cb-94c4-1f31c88ca31b")
+			(uuid "c39c18d8-c4d3-46e9-b50a-797a2c74414c")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0.75 270)
@@ -5769,7 +5769,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "054223df-2c17-48cb-94c4-1f31c88ca31b")
+			(uuid "6d0cf57a-82ab-415c-b142-302ae1fbfd2f")
 		)
 		(pad "1" smd rect
 			(at 0.325 1.55 270)
@@ -5778,7 +5778,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "054223df-2c17-48cb-94c4-1f31c88ca31b")
+			(uuid "7c2a0080-c59d-4c86-b191-f3a6693884cd")
 		)
 		(pad "1" smd rect
 			(at 0.365 -0.117)
@@ -5787,7 +5787,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "054223df-2c17-48cb-94c4-1f31c88ca31b")
+			(uuid "b9a101aa-9ddc-4927-a604-e30e3961021e")
 		)
 		(pad "1" smd rect
 			(at 0.975 1.55 270)
@@ -5796,7 +5796,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "054223df-2c17-48cb-94c4-1f31c88ca31b")
+			(uuid "9346f281-1309-4e31-9f4f-12ca21de9eaa")
 		)
 		(pad "1" thru_hole circle
 			(at 1 0.75 270)
@@ -5809,7 +5809,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "054223df-2c17-48cb-94c4-1f31c88ca31b")
+			(uuid "de467c2b-3fbb-412f-8b23-c9086933d69a")
 		)
 		(pad "1" thru_hole circle
 			(at 1.004073 0.142349 270)
@@ -5822,7 +5822,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "054223df-2c17-48cb-94c4-1f31c88ca31b")
+			(uuid "97b86b6b-bb7b-45e9-b2fe-39c9de226383")
 		)
 		(pad "5" smd rect
 			(at -0.975 -1.675 270)
@@ -5840,7 +5840,7 @@
 			(net 61 "/PWMOut2")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "8461c614-fbed-4b71-8642-0e2387d8286e")
+			(uuid "dcc46e98-6d6c-4904-a936-a93debd0efd9")
 		)
 		(pad "5" smd rect
 			(at 0 -1.275)
@@ -5849,7 +5849,7 @@
 			(net 61 "/PWMOut2")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "8461c614-fbed-4b71-8642-0e2387d8286e")
+			(uuid "ed99ea7a-15d3-4bca-a815-d2bef2828f71")
 		)
 		(pad "5" smd rect
 			(at 0.325 -1.675 270)
@@ -5858,7 +5858,7 @@
 			(net 61 "/PWMOut2")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "8461c614-fbed-4b71-8642-0e2387d8286e")
+			(uuid "84f2515a-2daf-4fc9-98b0-7ef84cd6f7f4")
 		)
 		(pad "5" smd rect
 			(at 0.975 -1.675 270)
@@ -5867,7 +5867,7 @@
 			(net 61 "/PWMOut2")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "8461c614-fbed-4b71-8642-0e2387d8286e")
+			(uuid "885af5f9-9aee-4b51-81af-a5b58a63463d")
 		)
 		(pad "9" smd rect
 			(at -1.35 -0.395)
@@ -8081,7 +8081,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "1159f8b7-7909-433f-b969-fa378be048aa")
+			(uuid "2e3844d2-baff-42be-ac2e-163ed2c0ad83")
 		)
 		(pad "1" smd rect
 			(at -0.325 1.55 270)
@@ -8090,7 +8090,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "1159f8b7-7909-433f-b969-fa378be048aa")
+			(uuid "6264b9a2-300d-4f3c-a15a-d98126f56df2")
 		)
 		(pad "1" thru_hole circle
 			(at -0.002172 0.138915 270)
@@ -8103,7 +8103,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "1159f8b7-7909-433f-b969-fa378be048aa")
+			(uuid "8dbc7ce7-a895-4ff5-89ad-8e43d294bf62")
 		)
 		(pad "1" smd rect
 			(at 0 0.708)
@@ -8112,7 +8112,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "1159f8b7-7909-433f-b969-fa378be048aa")
+			(uuid "8b782632-c852-4a62-81d5-fa599ff2add4")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0.75 270)
@@ -8125,7 +8125,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "1159f8b7-7909-433f-b969-fa378be048aa")
+			(uuid "6f6c1c16-9fba-4178-8092-45ce0eeb310e")
 		)
 		(pad "1" smd rect
 			(at 0.325 1.55 270)
@@ -8134,7 +8134,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "1159f8b7-7909-433f-b969-fa378be048aa")
+			(uuid "c4fec654-9d5d-48af-b884-4a85432dd22e")
 		)
 		(pad "1" smd rect
 			(at 0.365 -0.117)
@@ -8143,7 +8143,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "1159f8b7-7909-433f-b969-fa378be048aa")
+			(uuid "eee517a3-7579-465f-8c09-9f97db7242d2")
 		)
 		(pad "1" smd rect
 			(at 0.975 1.55 270)
@@ -8152,7 +8152,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "1159f8b7-7909-433f-b969-fa378be048aa")
+			(uuid "25a84c66-c916-455c-a7c2-99fe9e1ec008")
 		)
 		(pad "1" thru_hole circle
 			(at 1 0.75 270)
@@ -8165,7 +8165,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "1159f8b7-7909-433f-b969-fa378be048aa")
+			(uuid "2935d2ed-f9a0-4f38-98b0-e02c74977080")
 		)
 		(pad "1" thru_hole circle
 			(at 1.004073 0.142349 270)
@@ -8178,7 +8178,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "1159f8b7-7909-433f-b969-fa378be048aa")
+			(uuid "531c05b8-2dfb-4cf8-9cc1-e2d0e780f528")
 		)
 		(pad "5" smd rect
 			(at -0.975 -1.675 270)
@@ -8196,7 +8196,7 @@
 			(net 62 "/PWMOut3")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "f9b9ed4b-3622-4431-869f-13adf39e3e1c")
+			(uuid "ac3d52ea-151a-44bf-86bf-f35570cf4e4c")
 		)
 		(pad "5" smd rect
 			(at 0 -1.275)
@@ -8205,7 +8205,7 @@
 			(net 62 "/PWMOut3")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "f9b9ed4b-3622-4431-869f-13adf39e3e1c")
+			(uuid "acce7cc1-65e2-4556-a3e2-3ebd47573709")
 		)
 		(pad "5" smd rect
 			(at 0.325 -1.675 270)
@@ -8214,7 +8214,7 @@
 			(net 62 "/PWMOut3")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "f9b9ed4b-3622-4431-869f-13adf39e3e1c")
+			(uuid "441965e1-7bcb-4b5e-ad98-4b587cbf9fd8")
 		)
 		(pad "5" smd rect
 			(at 0.975 -1.675 270)
@@ -8223,7 +8223,7 @@
 			(net 62 "/PWMOut3")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "f9b9ed4b-3622-4431-869f-13adf39e3e1c")
+			(uuid "9e2dd92c-608f-48c9-8fe9-a9424532dab0")
 		)
 		(pad "9" smd rect
 			(at -1.35 -0.395)
@@ -8623,7 +8623,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b180c468-5217-46e3-8964-1ab82de7331a")
+			(uuid "96029c7e-f81a-4a17-8a37-ca9315a12b83")
 		)
 		(pad "2" smd roundrect
 			(at -1.5625 0.8375)
@@ -8643,7 +8643,7 @@
 			(net 30 "/RESET")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "06f271a5-10b4-4dd6-87e7-a247cea6415d")
+			(uuid "00539596-4b95-4b54-b733-c67b3b14c04f")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Button_Switch_SMD.3dshapes/SKSG.step"
@@ -11986,7 +11986,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "a9e1bdd4-4877-47f1-a872-956b6f4cbc88")
+			(uuid "36ac4ba5-4033-4ff4-b887-9709724d6a1e")
 		)
 		(pad "11" smd rect
 			(at 0 0 90)
@@ -11995,7 +11995,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "a9e1bdd4-4877-47f1-a872-956b6f4cbc88")
+			(uuid "4513769c-e6ba-4167-a9a2-0c1cd65fb201")
 		)
 		(pad "11" thru_hole circle
 			(at 0 1 90)
@@ -12010,7 +12010,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "a9e1bdd4-4877-47f1-a872-956b6f4cbc88")
+			(uuid "ba746631-d220-4c4b-9315-81ed3952e7e0")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Package_SON.3dshapes/VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm.wrl"
@@ -12326,7 +12326,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "32d25b2a-296b-451a-8d6e-4944c60f3894")
+			(uuid "71c99e3c-fe86-4378-93a8-97ac47da0491")
 		)
 		(pad "1" smd rect
 			(at -0.325 1.55 270)
@@ -12335,7 +12335,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "32d25b2a-296b-451a-8d6e-4944c60f3894")
+			(uuid "3cb2b2d3-7093-42be-b515-d3ea247af30b")
 		)
 		(pad "1" thru_hole circle
 			(at -0.002172 0.138915 270)
@@ -12348,7 +12348,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "32d25b2a-296b-451a-8d6e-4944c60f3894")
+			(uuid "c1b4dabe-e0ab-44cc-b6b4-e98b5f41d257")
 		)
 		(pad "1" smd rect
 			(at 0 0.708)
@@ -12357,7 +12357,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "32d25b2a-296b-451a-8d6e-4944c60f3894")
+			(uuid "4986e15e-4c02-4a66-b97c-93574199daf4")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0.75 270)
@@ -12370,7 +12370,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "32d25b2a-296b-451a-8d6e-4944c60f3894")
+			(uuid "2b05f200-8c01-4728-9621-e9b502faebbd")
 		)
 		(pad "1" smd rect
 			(at 0.325 1.55 270)
@@ -12379,7 +12379,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "32d25b2a-296b-451a-8d6e-4944c60f3894")
+			(uuid "cf1e6e0e-905d-47db-a9b5-3519cceff2ca")
 		)
 		(pad "1" smd rect
 			(at 0.365 -0.117)
@@ -12388,7 +12388,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "32d25b2a-296b-451a-8d6e-4944c60f3894")
+			(uuid "37df3da9-c95d-414d-8344-f245c262d9b3")
 		)
 		(pad "1" smd rect
 			(at 0.975 1.55 270)
@@ -12397,7 +12397,7 @@
 			(net 1 "GND")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "32d25b2a-296b-451a-8d6e-4944c60f3894")
+			(uuid "ae84a670-1bd0-46a4-a3db-97f27471c481")
 		)
 		(pad "1" thru_hole circle
 			(at 1 0.75 270)
@@ -12410,7 +12410,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "32d25b2a-296b-451a-8d6e-4944c60f3894")
+			(uuid "b1979d2f-8724-4e5c-8607-aa899d1ff179")
 		)
 		(pad "1" thru_hole circle
 			(at 1.004073 0.142349 270)
@@ -12423,7 +12423,7 @@
 			(pinfunction "S")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "32d25b2a-296b-451a-8d6e-4944c60f3894")
+			(uuid "8158615e-75b5-4bfa-8561-2305fee9987c")
 		)
 		(pad "5" smd rect
 			(at -0.975 -1.675 270)
@@ -12441,7 +12441,7 @@
 			(net 60 "/PWMOut1")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "2f00c2d3-012a-41c1-b36d-53623856c52b")
+			(uuid "283b7d17-e9ce-4efa-bc0d-a81777d91318")
 		)
 		(pad "5" smd rect
 			(at 0 -1.275)
@@ -12450,7 +12450,7 @@
 			(net 60 "/PWMOut1")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "2f00c2d3-012a-41c1-b36d-53623856c52b")
+			(uuid "2c91357a-df4f-4ceb-8a1d-60bb001095b8")
 		)
 		(pad "5" smd rect
 			(at 0.325 -1.675 270)
@@ -12459,7 +12459,7 @@
 			(net 60 "/PWMOut1")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "2f00c2d3-012a-41c1-b36d-53623856c52b")
+			(uuid "cfe7c630-da92-4ef4-b444-85bc582e7185")
 		)
 		(pad "5" smd rect
 			(at 0.975 -1.675 270)
@@ -12468,7 +12468,7 @@
 			(net 60 "/PWMOut1")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "2f00c2d3-012a-41c1-b36d-53623856c52b")
+			(uuid "eba4663f-752e-4f0d-8c23-88e20b8ed0ce")
 		)
 		(pad "9" smd rect
 			(at -1.35 -0.395)
@@ -20265,83 +20265,39 @@
 		)
 		(polygon
 			(pts
-				(xy 126.31838 111.5) (xy 118.005097 111.500001) (xy 118.005097 100.500001) (xy 126.31838 100.5)
+				(xy 124.06838 111.25) (xy 118.005097 111.250001) (xy 118.005097 100.750001) (xy 124.06838 100.75)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 126.127941 100.501902) (xy 126.175602 100.511382) (xy 126.211288 100.526163) (xy 126.24343 100.54764)
-				(xy 126.270739 100.574949) (xy 126.291708 100.60633) (xy 126.292215 100.607089) (xy 126.306996 100.642775)
-				(xy 126.316477 100.690436) (xy 126.31838 100.709751) (xy 126.31838 102.4755) (xy 126.299473 102.533691)
-				(xy 126.249973 102.569655) (xy 126.21938 102.5745) (xy 126.213744 102.5745) (xy 126.164244 102.561236)
-				(xy 126.06424 102.503498) (xy 126.064242 102.503498) (xy 126.022251 102.492247) (xy 125.956018 102.4745)
-				(xy 125.956016 102.4745) (xy 125.657009 102.4745) (xy 125.602008 102.457816) (xy 125.59652 102.454149)
-				(xy 125.596521 102.454149) (xy 125.522872 102.4395) (xy 125.52287 102.4395) (xy 124.57713 102.4395)
-				(xy 124.577127 102.4395) (xy 124.503479 102.454149) (xy 124.419958 102.509955) (xy 124.419954 102.509959)
-				(xy 124.383019 102.565237) (xy 124.334969 102.603116) (xy 124.273831 102.605518) (xy 124.251204 102.595972)
-				(xy 124.143187 102.533608) (xy 124.100754 102.522238) (xy 124.015892 102.4995) (xy 123.884108 102.4995)
-				(xy 123.8062 102.520375) (xy 123.756809 102.533609) (xy 123.64269 102.599496) (xy 123.549496 102.69269)
-				(xy 123.483609 102.806809) (xy 123.483608 102.806814) (xy 123.4495 102.934108) (xy 123.4495 103.065892)
-				(xy 123.475851 103.164237) (xy 123.483609 103.19319) (xy 123.549496 103.307309) (xy 123.549498 103.307311)
-				(xy 123.5495 103.307314) (xy 123.642686 103.4005) (xy 123.642688 103.400501) (xy 123.64269 103.400503)
-				(xy 123.75681 103.46639) (xy 123.756808 103.46639) (xy 123.756812 103.466391) (xy 123.756814 103.466392)
-				(xy 123.884108 103.5005) (xy 123.88411 103.5005) (xy 124.01589 103.5005) (xy 124.015892 103.5005)
-				(xy 124.143186 103.466392) (xy 124.201 103.433012) (xy 124.260847 103.420291) (xy 124.316743 103.445177)
-				(xy 124.347336 103.498165) (xy 124.3495 103.518749) (xy 124.3495 103.882872) (xy 124.364149 103.956521)
-				(xy 124.367881 103.965529) (xy 124.36414 103.967078) (xy 124.375593 104.007661) (xy 124.364043 104.043235)
-				(xy 124.366432 104.044225) (xy 124.362699 104.053237) (xy 124.349501 104.119583) (xy 124.3495 104.119595)
-				(xy 124.3495 104.380404) (xy 124.349501 104.380416) (xy 124.360262 104.434511) (xy 124.3627 104.446766)
-				(xy 124.362701 104.446768) (xy 124.366432 104.455775) (xy 124.364755 104.456469) (xy 124.378126 104.503897)
-				(xy 124.365189 104.54371) (xy 124.366432 104.544225) (xy 124.362699 104.553237) (xy 124.349501 104.619583)
-				(xy 124.3495 104.619595) (xy 124.3495 104.880404) (xy 124.349501 104.880416) (xy 124.354515 104.905619)
-				(xy 124.3627 104.946766) (xy 124.362701 104.946768) (xy 124.366432 104.955775) (xy 124.364755 104.956469)
-				(xy 124.378126 105.003897) (xy 124.365189 105.04371) (xy 124.366432 105.044225) (xy 124.362699 105.053237)
-				(xy 124.349501 105.119583) (xy 124.3495 105.119595) (xy 124.3495 105.380404) (xy 124.349501 105.380416)
-				(xy 124.356229 105.414237) (xy 124.3627 105.446766) (xy 124.362701 105.446768) (xy 124.366432 105.455775)
-				(xy 124.364755 105.456469) (xy 124.378126 105.503897) (xy 124.365189 105.54371) (xy 124.366432 105.544225)
-				(xy 124.362699 105.553237) (xy 124.349501 105.619583) (xy 124.3495 105.619595) (xy 124.3495 105.880404)
-				(xy 124.349501 105.880416) (xy 124.360262 105.934511) (xy 124.3627 105.946766) (xy 124.362701 105.946768)
-				(xy 124.366432 105.955775) (xy 124.364755 105.956469) (xy 124.378126 106.003897) (xy 124.365189 106.04371)
-				(xy 124.366432 106.044225) (xy 124.362699 106.053237) (xy 124.349501 106.119583) (xy 124.3495 106.119595)
-				(xy 124.3495 106.380404) (xy 124.349501 106.380416) (xy 124.362699 106.446762) (xy 124.3627 106.446766)
-				(xy 124.362701 106.446768) (xy 124.366432 106.455775) (xy 124.364755 106.456469) (xy 124.378126 106.503897)
-				(xy 124.365189 106.54371) (xy 124.366432 106.544225) (xy 124.362699 106.553237) (xy 124.349501 106.619583)
-				(xy 124.3495 106.619595) (xy 124.3495 106.880404) (xy 124.349501 106.880416) (xy 124.360262 106.934511)
-				(xy 124.3627 106.946766) (xy 124.362701 106.946768) (xy 124.366432 106.955775) (xy 124.364755 106.956469)
-				(xy 124.378126 107.003897) (xy 124.365189 107.04371) (xy 124.366432 107.044225) (xy 124.362699 107.053237)
-				(xy 124.349501 107.119583) (xy 124.3495 107.119595) (xy 124.3495 107.380404) (xy 124.349501 107.380416)
-				(xy 124.360262 107.434511) (xy 124.3627 107.446766) (xy 124.362701 107.446768) (xy 124.366432 107.455775)
-				(xy 124.364755 107.456469) (xy 124.378126 107.503897) (xy 124.365189 107.54371) (xy 124.366432 107.544225)
-				(xy 124.362699 107.553237) (xy 124.349501 107.619583) (xy 124.3495 107.619595) (xy 124.3495 107.880404)
-				(xy 124.349501 107.880416) (xy 124.354515 107.905619) (xy 124.3627 107.946766) (xy 124.362701 107.946768)
-				(xy 124.366433 107.955778) (xy 124.363444 107.957015) (xy 124.375592 108.000109) (xy 124.36485 108.033219)
-				(xy 124.36788 108.034474) (xy 124.364149 108.043478) (xy 124.3495 108.117127) (xy 124.3495 108.35625)
-				(xy 124.330593 108.414441) (xy 124.281093 108.450405) (xy 124.219907 108.450405) (xy 124.201 108.441987)
-				(xy 124.143187 108.408608) (xy 124.100754 108.397238) (xy 124.015892 108.3745) (xy 123.884108 108.3745)
-				(xy 123.8062 108.395375) (xy 123.756809 108.408609) (xy 123.64269 108.474496) (xy 123.549496 108.56769)
-				(xy 123.483609 108.681809) (xy 123.483608 108.681814) (xy 123.4495 108.809108) (xy 123.4495 109.190892)
-				(xy 123.468356 109.261263) (xy 123.483609 109.31819) (xy 123.549496 109.432309) (xy 123.549498 109.432311)
-				(xy 123.5495 109.432314) (xy 123.642686 109.5255) (xy 123.642688 109.525501) (xy 123.64269 109.525503)
-				(xy 123.75681 109.59139) (xy 123.756808 109.59139) (xy 123.756812 109.591391) (xy 123.756814 109.591392)
-				(xy 123.884108 109.6255) (xy 123.88411 109.6255) (xy 124.01589 109.6255) (xy 124.015892 109.6255)
-				(xy 124.143186 109.591392) (xy 124.143188 109.59139) (xy 124.14319 109.59139) (xy 124.257309 109.525503)
-				(xy 124.257309 109.525502) (xy 124.257314 109.5255) (xy 124.286362 109.496451) (xy 124.340877 109.468676)
-				(xy 124.401309 109.478247) (xy 124.411273 109.485486) (xy 124.411849 109.484625) (xy 124.419956 109.490042)
-				(xy 124.419957 109.490043) (xy 124.503479 109.54585) (xy 124.503478 109.54585) (xy 124.527805 109.550688)
-				(xy 124.57713 109.5605) (xy 124.577131 109.5605) (xy 125.522869 109.5605) (xy 125.52287 109.5605)
-				(xy 125.596521 109.54585) (xy 125.602008 109.542184) (xy 125.657009 109.5255) (xy 125.956016 109.5255)
-				(xy 125.956018 109.5255) (xy 126.064237 109.496503) (xy 126.064239 109.496501) (xy 126.064241 109.496501)
-				(xy 126.164244 109.438764) (xy 126.213744 109.4255) (xy 126.21938 109.4255) (xy 126.277571 109.444407)
-				(xy 126.313535 109.493907) (xy 126.31838 109.5245) (xy 126.31838 111.290248) (xy 126.316477 111.309563)
-				(xy 126.306996 111.357224) (xy 126.292215 111.39291) (xy 126.270742 111.425047) (xy 126.243427 111.452361)
-				(xy 126.242668 111.452868) (xy 126.21129 111.473835) (xy 126.175604 111.488616) (xy 126.127943 111.498097)
-				(xy 126.108628 111.5) (xy 118.214848 111.5) (xy 118.195535 111.498098) (xy 118.147874 111.488618)
-				(xy 118.112186 111.473836) (xy 118.111427 111.473329) (xy 118.080046 111.45236) (xy 118.052737 111.425051)
-				(xy 118.03126 111.392909) (xy 118.016479 111.357223) (xy 118.006999 111.309562) (xy 118.005097 111.290249)
-				(xy 118.005097 100.709752) (xy 118.006999 100.690439) (xy 118.016479 100.642778) (xy 118.031259 100.607093)
-				(xy 118.052739 100.574947) (xy 118.080043 100.547643) (xy 118.112189 100.526163) (xy 118.147872 100.511384)
-				(xy 118.170985 100.506786) (xy 118.195536 100.501902) (xy 118.214837 100.5) (xy 126.108628 100.5)
+				(xy 123.877941 100.751902) (xy 123.925602 100.761382) (xy 123.961288 100.776163) (xy 123.99343 100.79764)
+				(xy 124.020739 100.824949) (xy 124.041708 100.85633) (xy 124.042215 100.857089) (xy 124.056996 100.892775)
+				(xy 124.066477 100.940436) (xy 124.06838 100.959751) (xy 124.06838 102.4005) (xy 124.049473 102.458691)
+				(xy 123.999973 102.494655) (xy 123.96938 102.4995) (xy 123.884108 102.4995) (xy 123.8062 102.520375)
+				(xy 123.756809 102.533609) (xy 123.64269 102.599496) (xy 123.549496 102.69269) (xy 123.483609 102.806809)
+				(xy 123.483608 102.806814) (xy 123.4495 102.934108) (xy 123.4495 103.065892) (xy 123.479579 103.178151)
+				(xy 123.483609 103.19319) (xy 123.549496 103.307309) (xy 123.549498 103.307311) (xy 123.5495 103.307314)
+				(xy 123.642686 103.4005) (xy 123.642688 103.400501) (xy 123.64269 103.400503) (xy 123.75681 103.46639)
+				(xy 123.756808 103.46639) (xy 123.756812 103.466391) (xy 123.756814 103.466392) (xy 123.884108 103.5005)
+				(xy 123.88411 103.5005) (xy 123.96938 103.5005) (xy 124.027571 103.519407) (xy 124.063535 103.568907)
+				(xy 124.06838 103.5995) (xy 124.06838 108.2755) (xy 124.049473 108.333691) (xy 123.999973 108.369655)
+				(xy 123.96938 108.3745) (xy 123.884108 108.3745) (xy 123.8062 108.395375) (xy 123.756809 108.408609)
+				(xy 123.64269 108.474496) (xy 123.549496 108.56769) (xy 123.483609 108.681809) (xy 123.483608 108.681814)
+				(xy 123.4495 108.809108) (xy 123.4495 109.190892) (xy 123.479579 109.303151) (xy 123.483609 109.31819)
+				(xy 123.549496 109.432309) (xy 123.549498 109.432311) (xy 123.5495 109.432314) (xy 123.642686 109.5255)
+				(xy 123.642688 109.525501) (xy 123.64269 109.525503) (xy 123.75681 109.59139) (xy 123.756808 109.59139)
+				(xy 123.756812 109.591391) (xy 123.756814 109.591392) (xy 123.884108 109.6255) (xy 123.88411 109.6255)
+				(xy 123.96938 109.6255) (xy 124.027571 109.644407) (xy 124.063535 109.693907) (xy 124.06838 109.7245)
+				(xy 124.06838 111.040248) (xy 124.066477 111.059562) (xy 124.066477 111.059563) (xy 124.056996 111.107224)
+				(xy 124.042215 111.14291) (xy 124.020742 111.175047) (xy 123.993427 111.202361) (xy 123.992668 111.202868)
+				(xy 123.96129 111.223835) (xy 123.925604 111.238616) (xy 123.877943 111.248097) (xy 123.858628 111.25)
+				(xy 118.214848 111.25) (xy 118.195535 111.248098) (xy 118.147874 111.238618) (xy 118.112186 111.223836)
+				(xy 118.111427 111.223329) (xy 118.080046 111.20236) (xy 118.052737 111.175051) (xy 118.03126 111.142909)
+				(xy 118.016479 111.107223) (xy 118.006999 111.059562) (xy 118.005097 111.040249) (xy 118.005097 100.959752)
+				(xy 118.006999 100.940439) (xy 118.016479 100.892778) (xy 118.031259 100.857093) (xy 118.052739 100.824947)
+				(xy 118.080043 100.797643) (xy 118.112189 100.776163) (xy 118.147872 100.761384) (xy 118.170985 100.756786)
+				(xy 118.195536 100.751902) (xy 118.214837 100.75) (xy 123.858628 100.75)
 			)
 		)
 	)
