@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MIDI In")
-		(date "2024-07-17")
-		(rev "2")
+		(date "2026-02-10")
+		(rev "2026-02-10")
 	)
 	(lib_symbols
 		(symbol "V2_Connector_Audio:SJ2-25404B-SMT-TR"
@@ -2037,24 +2037,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 156.21 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 156.21 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a1417ba9-1a7d-406b-93c8-2c84cabf440b")
 		)
@@ -2229,24 +2211,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 140.97 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 140.97 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "82dfbb0d-8516-4e1d-898d-15e75a7677ca")
 		)
@@ -2336,24 +2300,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 157.48 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 167.64 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 167.64 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,24 +2397,6 @@
 		)
 		(property "Manufacturer" "Toshiba"
 			(at 187.96 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 187.96 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 187.96 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,24 +2521,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "be2d873f-5cb6-4995-85c4-09e11be8694e")
 		)
@@ -2701,24 +2611,6 @@
 		)
 		(property "Manufacturer" "Same Sky"
 			(at 116.84 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

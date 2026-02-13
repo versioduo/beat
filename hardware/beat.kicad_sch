@@ -119,17 +119,16 @@
 				)
 			)
 			(property "Value" "V2-logo"
-				(at -4.572 -5.588 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
 			(property "Footprint" "V2_Artwork:Logo_Small"
-				(at 0 -8.128 0)
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -147,15 +146,6 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4945,7 +4935,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_2mm"
+			(property "Value" "2mm"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -4972,15 +4962,6 @@
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5179,7 +5160,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Production:Order_Number"
+		(symbol "V2_Production:Revision"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -5191,7 +5172,7 @@
 					)
 				)
 			)
-			(property "Value" "Order_Number"
+			(property "Value" ""
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -5200,7 +5181,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "V2_Production:Order_Number"
+			(property "Footprint" "V2_Production:Revision"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -5227,26 +5208,26 @@
 					(hide yes)
 				)
 			)
-			(symbol "Order_Number_0_0"
-				(text "ORDER-NUMBER"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "Order_Number_0_1"
+			(symbol "Revision_0_1"
 				(rectangle
-					(start -8.89 1.27)
-					(end 8.89 -1.27)
+					(start -5.08 1.27)
+					(end 5.08 -1.27)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Revision_1_1"
+				(text "Revision"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -6538,12 +6519,6 @@
 		(uuid "8096dd96-e9f0-4155-a951-ef2345a9978a")
 	)
 	(junction
-		(at 198.12 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81e192e7-5cfa-4754-896e-814b09bc65bf")
-	)
-	(junction
 		(at 179.07 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6670,15 +6645,6 @@
 	(no_connect
 		(at 60.96 99.06)
 		(uuid "c73d1218-fd31-454f-92d0-cb15b2fa4812")
-	)
-	(bus_entry
-		(at 175.26 158.75)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec367151-ca8a-4249-a5e5-3aad61c603db")
 	)
 	(wire
 		(pts
@@ -6819,16 +6785,6 @@
 			(type default)
 		)
 		(uuid "1df3516b-3389-49ae-82f7-9e041e310585")
-	)
-	(wire
-		(pts
-			(xy 198.12 81.28) (xy 198.12 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21ba6712-a8e9-4732-8e1f-da8729272ca2")
 	)
 	(wire
 		(pts
@@ -8393,24 +8349,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 116.84 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 116.84 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "40994f9c-19ed-482d-9248-93dc90690555")
 		)
@@ -8573,24 +8511,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 233.68 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 233.68 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "91274f81-199a-4820-ae10-5e4a5b281d04")
 		)
@@ -8738,24 +8658,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 210.82 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 210.82 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -8837,24 +8739,6 @@
 		)
 		(property "Product" "SKSGACE010"
 			(at 254 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 254 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 254 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,24 +8847,6 @@
 		)
 		(property "Rating" "50V"
 			(at 119.38 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 119.38 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 119.38 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9068,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 198.12 81.28 270)
+		(at 243.84 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9210,7 +9076,7 @@
 		(dnp no)
 		(uuid "1cdcd8f6-f540-47a3-b2d1-6adf26735132")
 		(property "Reference" "#FLG0101"
-			(at 200.025 81.28 0)
+			(at 243.84 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,7 +9085,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 207.01 81.28 90)
+			(at 234.188 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +9093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 81.28 0)
+			(at 243.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,7 +9102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 81.28 0)
+			(at 243.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9245,7 +9111,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 198.12 81.28 0)
+			(at 243.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9347,24 +9213,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor "
 			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 127 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 127 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9534,24 +9382,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 250.19 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 250.19 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d103674b-7ace-4f36-8d35-8d6b17321d70")
 		)
@@ -9577,7 +9407,7 @@
 		(lib_id "V2_Connector_Header_2.54mm:1x08_Socket_Horizontal")
 		(at 156.21 170.18 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9626,16 +9456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 156.21 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
+		(property "Sim.Enable" "0"
 			(at 156.21 170.18 0)
 			(effects
 				(font
@@ -9679,7 +9500,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:Shield")
-		(at 265.43 74.93 90)
+		(at 243.84 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9687,7 +9508,7 @@
 		(dnp no)
 		(uuid "28c7e140-20fa-494d-9878-14b58a0950ed")
 		(property "Reference" "#PWR0119"
-			(at 271.78 74.93 0)
+			(at 250.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9696,7 +9517,7 @@
 			)
 		)
 		(property "Value" "Shield"
-			(at 277.114 74.93 90)
+			(at 251.46 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9704,7 +9525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 74.93 0)
+			(at 243.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,7 +9534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 74.93 0)
+			(at 243.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9722,7 +9543,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 74.93 0)
+			(at 243.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9746,7 +9567,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 209.55 158.115 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9796,16 +9617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 209.55 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
+		(property "Sim.Enable" "0"
 			(at 209.55 158.115 0)
 			(effects
 				(font
@@ -9916,24 +9728,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 205.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 205.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ba4cc82d-3cca-4352-a8fc-32d199ee67cd")
 		)
@@ -9944,6 +9738,71 @@
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "C107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:+5V")
+		(at 243.84 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "362c494b-d998-4457-80fd-5a9fe4a46834")
+		(property "Reference" "#PWR01"
+			(at 240.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 250.698 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "981b9caf-d72e-4194-88e4-b0ec328d77d4")
+		)
+		(instances
+			(project "beat"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10219,7 +10078,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 260.35 156.21 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10232,7 +10091,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm"
+		(property "Value" "2mm"
 			(at 260.35 152.4 0)
 			(effects
 				(font
@@ -10259,24 +10118,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 260.35 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 260.35 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 260.35 156.21 0)
 			(effects
 				(font
@@ -10361,7 +10202,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 265.43 74.93 90)
+		(at 243.84 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10369,7 +10210,7 @@
 		(dnp no)
 		(uuid "3da6c217-a9ca-4061-8de9-a8697c946473")
 		(property "Reference" "#FLG0103"
-			(at 263.525 74.93 0)
+			(at 243.84 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10378,7 +10219,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 256.54 74.93 90)
+			(at 234.188 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10386,7 +10227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 74.93 0)
+			(at 243.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10395,7 +10236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 74.93 0)
+			(at 243.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10404,7 +10245,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 265.43 74.93 0)
+			(at 243.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,7 +10267,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 265.43 71.12 90)
+		(at 243.84 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10434,7 +10275,7 @@
 		(dnp no)
 		(uuid "479cbe7a-db42-40a7-9e66-957e29dc6e0f")
 		(property "Reference" "#FLG0102"
-			(at 263.525 71.12 0)
+			(at 243.84 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10443,7 +10284,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 256.54 71.12 90)
+			(at 234.188 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10451,7 +10292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 71.12 0)
+			(at 243.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10460,7 +10301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 71.12 0)
+			(at 243.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10469,7 +10310,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 265.43 71.12 0)
+			(at 243.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10507,7 +10348,7 @@
 				)
 			)
 		)
-		(property "Value" "Cortex_Debug"
+		(property "Value" "Cortex"
 			(at 129.54 86.36 0)
 			(effects
 				(font
@@ -10534,24 +10375,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 128.27 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 128.27 96.52 0)
 			(effects
 				(font
@@ -10655,7 +10478,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 261.62 95.25 0)
+		(at 261.62 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10664,7 +10487,7 @@
 		(fields_autoplaced yes)
 		(uuid "5100b9f4-1e7d-4491-ac2a-e221d7176d0a")
 		(property "Reference" "#PWR0124"
-			(at 261.62 101.6 0)
+			(at 261.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10673,7 +10496,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 100.33 0)
+			(at 261.62 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10682,7 +10505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 95.25 0)
+			(at 261.62 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10691,7 +10514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 95.25 0)
+			(at 261.62 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,7 +10523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 95.25 0)
+			(at 261.62 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10722,7 +10545,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+5V")
-		(at 198.12 81.28 0)
+		(at 198.12 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10730,7 +10553,7 @@
 		(dnp no)
 		(uuid "55922ecc-cc59-4de6-9532-760ec5169f4f")
 		(property "Reference" "#PWR0117"
-			(at 198.12 85.09 0)
+			(at 194.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10739,7 +10562,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 198.12 76.2 0)
+			(at 203.2 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10747,7 +10570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 81.28 0)
+			(at 198.12 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10756,7 +10579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 81.28 0)
+			(at 198.12 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10765,7 +10588,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 81.28 0)
+			(at 198.12 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,24 +10691,6 @@
 		)
 		(property "Product" "CRCW0603100RFKEAHP"
 			(at 119.38 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 119.38 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 119.38 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11056,24 +10861,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 267.97 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 267.97 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "efe6d787-a195-4ce8-8198-2df0e36f188a")
 		)
@@ -11228,7 +11015,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 265.43 71.12 90)
+		(at 243.84 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11236,7 +11023,7 @@
 		(dnp no)
 		(uuid "63708f4b-8a56-411a-9f41-6a95aaff598d")
 		(property "Reference" "#PWR0118"
-			(at 271.78 71.12 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11245,7 +11032,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 270.51 71.12 0)
+			(at 248.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11254,7 +11041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 71.12 0)
+			(at 243.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11263,7 +11050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 71.12 0)
+			(at 243.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11272,7 +11059,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 71.12 0)
+			(at 243.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,24 +11162,6 @@
 		)
 		(property "Rating" "100mW"
 			(at 233.68 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 213.36 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 213.36 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11550,7 +11319,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 260.35 167.64 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11563,7 +11332,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm"
+		(property "Value" "2mm"
 			(at 260.35 163.83 0)
 			(effects
 				(font
@@ -11590,24 +11359,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 260.35 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 260.35 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 260.35 167.64 0)
 			(effects
 				(font
@@ -11825,7 +11576,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Production:Order_Number")
+		(lib_id "V2_Production:Revision")
 		(at 182.88 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11841,7 +11592,7 @@
 				)
 			)
 		)
-		(property "Value" "Order_Number"
+		(property "Value" "~"
 			(at 182.88 190.5 0)
 			(effects
 				(font
@@ -11850,7 +11601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "V2_Production:Order_Number"
+		(property "Footprint" "V2_Production:Revision"
 			(at 182.88 193.04 0)
 			(effects
 				(font
@@ -11869,24 +11620,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 182.88 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 182.88 187.96 0)
 			(effects
 				(font
@@ -12040,7 +11773,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 260.35 179.07 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12053,7 +11786,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm"
+		(property "Value" "2mm"
 			(at 260.35 175.26 0)
 			(effects
 				(font
@@ -12080,24 +11813,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 260.35 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 260.35 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 260.35 179.07 0)
 			(effects
 				(font
@@ -12208,24 +11923,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 179.07 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 179.07 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c3ec50a0-04df-40be-aae7-9d7b417025de")
 		)
@@ -12313,24 +12010,6 @@
 		)
 		(property "Manufacturer" "ABRACON"
 			(at 30.48 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 30.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 30.48 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12428,24 +12107,6 @@
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 33.02 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 33.02 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12551,24 +12212,6 @@
 		)
 		(property "Rating" "10V"
 			(at 66.04 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 66.04 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 66.04 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12815,24 +12458,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 134.62 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 134.62 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fe4290dd-cefc-4cc1-83c0-a87e5e4c229a")
 		)
@@ -12895,24 +12520,6 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 277.495 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 277.495 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 277.495 151.13 0)
 			(effects
 				(font
@@ -13004,24 +12611,6 @@
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 27.94 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 27.94 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 27.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13179,7 +12768,7 @@
 		(lib_id "V2_Artwork:Board_beat")
 		(at 181.61 172.72 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13229,16 +12818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 181.61 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
+		(property "Sim.Enable" "0"
 			(at 181.61 172.72 0)
 			(effects
 				(font
@@ -13410,24 +12990,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 137.16 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 137.16 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "033939a2-7fb5-4ef9-a4b8-e99e3748741d")
 		)
@@ -13533,24 +13095,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 261.62 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 261.62 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6ff1745d-c11f-4562-8da8-32201df3ed36")
 		)
@@ -13635,7 +13179,7 @@
 	)
 	(symbol
 		(lib_id "V2_Device:C_1210_22u")
-		(at 261.62 92.71 0)
+		(at 261.62 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13643,7 +13187,7 @@
 		(dnp no)
 		(uuid "bd1122b8-57f3-4ec3-8e83-0874284863f5")
 		(property "Reference" "C110"
-			(at 264.16 91.44 0)
+			(at 264.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13652,7 +13196,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 266.7 93.98 0)
+			(at 266.7 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13660,7 +13204,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_1210"
-			(at 261.62 109.728 0)
+			(at 261.62 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13669,7 +13213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 92.71 0)
+			(at 261.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13678,7 +13222,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 261.62 105.41 0)
+			(at 261.62 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13687,7 +13231,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA6P3X7R1E226M5"
-			(at 261.62 115.57 0)
+			(at 261.62 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,7 +13240,7 @@
 			)
 		)
 		(property "Product" "CGA6P3X7R1E226M250AE"
-			(at 261.62 110.49 0)
+			(at 261.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13705,7 +13249,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 261.62 107.95 0)
+			(at 261.62 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13714,25 +13258,7 @@
 			)
 		)
 		(property "Rating" "25V"
-			(at 261.62 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 261.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 261.62 92.71 0)
+			(at 261.62 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13848,24 +13374,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 106.68 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 106.68 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4cf1b210-2b1a-44fa-ac9c-0947a1a1fb8f")
 		)
@@ -13885,7 +13393,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 260.35 144.78 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13898,7 +13406,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2mm"
+		(property "Value" "2mm"
 			(at 260.35 140.97 0)
 			(effects
 				(font
@@ -13925,24 +13433,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 260.35 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 260.35 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 260.35 144.78 0)
 			(effects
 				(font
@@ -14107,24 +13597,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 119.38 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 119.38 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "914d3825-d3a9-40d0-936b-cc584c662e9b")
 		)
@@ -14233,24 +13705,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 86.36 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 86.36 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "957882ff-7c79-433b-b595-cba74e7b0f1d")
 		)
@@ -14312,24 +13766,6 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 277.495 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 277.495 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 277.495 163.83 0)
 			(effects
 				(font
@@ -14426,24 +13862,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 129.54 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 129.54 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "accfb89e-4554-412c-b526-afa48735151e")
 		)
@@ -14461,7 +13879,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+5V")
-		(at 261.62 90.17 0)
+		(at 261.62 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14469,7 +13887,7 @@
 		(dnp no)
 		(uuid "e24a36b0-214a-4f13-b19a-0aa950acb25c")
 		(property "Reference" "#PWR0120"
-			(at 261.62 93.98 0)
+			(at 261.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14478,7 +13896,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 261.62 85.09 0)
+			(at 261.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14486,7 +13904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 90.17 0)
+			(at 261.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14495,7 +13913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 90.17 0)
+			(at 261.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14504,7 +13922,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 90.17 0)
+			(at 261.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14597,24 +14015,6 @@
 		)
 		(property "Manufacturer" "JAE Electronics"
 			(at 185.166 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 185.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14823,24 +14223,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 96.52 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 96.52 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "456a6422-df18-4ff1-9de7-000df4adc192")
 		)
@@ -14977,24 +14359,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 277.495 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 277.495 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -15078,24 +14442,6 @@
 		)
 		(property "Product" "ATSAMD51G19A-MU"
 			(at 77.47 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 77.47 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 77.47 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15344,24 +14690,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 193.04 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 193.04 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "37414fd1-2418-42cd-8317-73ea69afa929")
 		)
@@ -15488,24 +14816,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 213.36 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 213.36 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "15d6571e-2f44-4890-ae7a-811c0eb1dd65")
 		)
@@ -15609,24 +14919,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 58.42 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 58.42 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "882ecb35-114d-452b-8aca-e842a8eb4a00")
 		)
@@ -15646,7 +14938,7 @@
 		(lib_id "V2_Artwork:V2-logo")
 		(at 182.88 156.21 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -15689,24 +14981,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 182.88 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 182.88 156.21 0)
 			(effects
 				(font

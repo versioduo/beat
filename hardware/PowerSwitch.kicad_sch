@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Switch 5V")
-		(date "2023-07-02")
-		(rev "1")
+		(date "2026-02-10")
+		(rev "2026-02-10")
 		(company "Versio Duo")
 	)
 	(lib_symbols
@@ -1021,24 +1021,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 156.21 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 156.21 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f2421e67-1001-4255-bb41-e60ee4dbd66c")
 		)
@@ -1162,24 +1144,6 @@
 		)
 		(property "Product" "RCS060339K0FKEA"
 			(at 118.11 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 135.89 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 135.89 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
