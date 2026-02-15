@@ -158,7 +158,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -246,7 +246,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -361,7 +361,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "85e3b234-3d66-46bf-9915-154e61ffc680")
+			(uuid "df01265f-6d4f-4bcc-b089-2cb71e9a34f9")
 		)
 		(fp_poly
 			(pts
@@ -376,7 +376,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "e780b570-8c83-4cfc-b4f5-c0cf6ab3e270")
+			(uuid "93b61d52-79de-401e-9d86-54f8153edb05")
 		)
 		(fp_poly
 			(pts
@@ -399,7 +399,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "facc6ce7-9db0-4ca8-b260-3db313581f57")
+			(uuid "38e4b510-ffc5-4f2d-951c-662424febbd5")
 		)
 		(fp_poly
 			(pts
@@ -413,7 +413,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "e6722689-ab04-49a0-a9a1-816fdadbc74d")
+			(uuid "395f64a9-a034-4fa8-a9b6-adb980e2eb6d")
 		)
 		(fp_poly
 			(pts
@@ -428,7 +428,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "0b015830-b41d-4695-8ea0-e8242d446557")
+			(uuid "0cf8e72d-0f11-4238-877b-4872190fe030")
 		)
 		(fp_poly
 			(pts
@@ -451,13 +451,13 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "aaa28af9-ea3d-4b28-928f-9ab70164c45a")
+			(uuid "7bb3cafd-4cad-4e18-8006-5d20fab2502f")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layer "F.Cu")
-			(uuid "e9abcd14-efd8-4d11-84d5-8712b942cf16")
+			(uuid "15ff7813-6da8-4c02-a245-017a35c01e7a")
 			(hatch edge 0.508)
 			(connect_pads
 				(clearance 0)
@@ -531,7 +531,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -619,7 +619,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -642,7 +642,7 @@
 			(size 1 1)
 			(drill 1)
 			(layers "*.Mask")
-			(uuid "5f188a0b-373c-4f1c-9e0a-f6f1f52b41b3")
+			(uuid "86014172-f287-4c53-ada8-bcfb9707771b")
 		)
 		(embedded_fonts no)
 	)
@@ -689,7 +689,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -788,19 +788,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "245de8a1-c82e-41fd-bc5a-fe4211ff7838")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/96abbcfb-4646-4a7d-bbca-fde2aab97088")
 		(sheetname "/")
 		(sheetfile "beat-cover.kicad_sch")
@@ -813,7 +800,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d65dc0ce-1569-427b-afe3-cb2851dd0eeb")
+			(uuid "0d0fa6ce-41df-4526-8326-3bea2e567e8f")
 		)
 		(fp_line
 			(start -1.65 -5.1)
@@ -823,7 +810,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d430f589-0423-4660-ab53-1798621e6bfd")
+			(uuid "7af74f82-ada5-4da5-878c-58c09203b195")
 		)
 		(fp_line
 			(start 1.65 5.1)
@@ -833,7 +820,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "7c11ffc7-ad5d-4839-966a-fa06863aaa97")
+			(uuid "faf098a5-9079-46e0-a7cd-06a2db1a8c98")
 		)
 		(fp_line
 			(start -1.65 5.1)
@@ -843,35 +830,35 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "5df356ae-314a-4ae3-a06a-2adfb56d8178")
+			(uuid "6949d440-a366-4dc7-9114-c3a08c554465")
 		)
 		(pad "" np_thru_hole circle
 			(at -1.4 -4.85 90)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Mask")
-			(uuid "e0d53786-4ca1-456d-82e5-7782c0502790")
+			(uuid "da7b7578-1734-476e-afca-3e1ab8d3c263")
 		)
 		(pad "" np_thru_hole circle
 			(at -1.4 4.85 90)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Mask")
-			(uuid "ea1809f4-124e-4811-9bca-ddc5881bb144")
+			(uuid "0ba6d7f7-6d36-4abd-8dc5-10a73055bd0f")
 		)
 		(pad "" np_thru_hole circle
 			(at 1.4 -4.85 90)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Mask")
-			(uuid "cde6030b-3cbc-4697-a558-21bf46d3d6c1")
+			(uuid "62fba263-3ede-4c9a-8dec-309c74bc4d2e")
 		)
 		(pad "" np_thru_hole circle
 			(at 1.4 4.85 90)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Mask")
-			(uuid "376a0a77-3487-42be-9ff6-c2a47da49826")
+			(uuid "b130f2e8-05b9-417a-aab1-220a0c1299db")
 		)
 		(embedded_fonts no)
 	)
@@ -918,7 +905,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1006,7 +993,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1107,19 +1094,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3fc0e94-db74-456a-87e1-3ddbc70d8ec6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/cb80900e-0b4e-4baa-9440-649d99f0e8eb")
 		(sheetname "/")
 		(sheetfile "beat-cover.kicad_sch")
@@ -1132,7 +1106,7 @@
 				(type solid)
 			)
 			(layer "F.Cu")
-			(uuid "a09d442b-fbc2-4767-b04b-6a716492b3d0")
+			(uuid "7456d520-5917-4401-8861-3390208d7fae")
 		)
 		(fp_poly
 			(pts
@@ -1145,7 +1119,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "547c8c07-526b-4bee-987d-06eb3337ef2e")
+			(uuid "63b7cb23-9a7f-4f2a-b8a4-0306d79d8979")
 		)
 		(fp_poly
 			(pts
@@ -1172,7 +1146,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "9baed3d5-0821-42f8-b6ef-d3716e66556a")
+			(uuid "52d08ed3-2709-4e92-8c29-89bd711796aa")
 		)
 		(fp_poly
 			(pts
@@ -1250,7 +1224,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "84f4722d-4374-4500-9b5c-99c5c8987e67")
+			(uuid "89dbeba7-3b9d-4b17-9e3a-e8e99c907cc7")
 		)
 		(fp_poly
 			(pts
@@ -1324,7 +1298,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "81fa9861-e69c-415d-bc1f-22d82b9fc0ef")
+			(uuid "ffa19a49-abca-44ce-b87d-76c45dba4012")
 		)
 		(fp_poly
 			(pts
@@ -1415,7 +1389,7 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "d5e18d2d-b97e-4fdd-94d2-e2bddb39f311")
+			(uuid "d922e8e6-58ba-40f7-b3cf-d4c74e3e135a")
 		)
 		(fp_line
 			(start -1.479869 -0.950784)
@@ -1425,7 +1399,7 @@
 				(type solid)
 			)
 			(layer "F.Mask")
-			(uuid "750d4dd2-c726-41fa-a5ab-c70a672df82a")
+			(uuid "1fbe76bc-2338-4223-b145-d799e9dc7b8a")
 		)
 		(fp_poly
 			(pts
@@ -1438,7 +1412,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "7c5106c9-cc70-448a-84b3-0934c0265aca")
+			(uuid "5df8847b-df40-480a-8991-7e4a965fa1d6")
 		)
 		(fp_poly
 			(pts
@@ -1465,7 +1439,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "7093e83f-87be-43fd-b0de-b2e5d583d3ec")
+			(uuid "97a1f988-53d0-4ae6-87d3-13da37c09db7")
 		)
 		(fp_poly
 			(pts
@@ -1543,7 +1517,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "559e6ba9-aeef-4d21-ae5b-9a80ba58f778")
+			(uuid "fb4bf7fa-e948-4536-a5f4-f7f8404599c0")
 		)
 		(fp_poly
 			(pts
@@ -1617,7 +1591,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "ea46670b-adf3-4b16-89a4-51b5a31f1693")
+			(uuid "621fe512-69da-456c-a056-b4fb8541a680")
 		)
 		(fp_poly
 			(pts
@@ -1708,13 +1682,13 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "0efd98e5-12e9-4cac-b340-a0694dde46d9")
+			(uuid "465c8a8b-20aa-46bf-97fa-ab89355954a9")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layer "F.Cu")
-			(uuid "2c87ce03-d729-4e12-9557-1bb87281a9cd")
+			(uuid "e8c3caf1-5281-4465-87e8-07e5cb3cadb1")
 			(hatch edge 0.508)
 			(connect_pads
 				(clearance 0)
@@ -1743,17 +1717,17 @@
 			)
 		)
 		(group ""
-			(uuid "6c3c50ee-c15f-4f12-8379-4e73daeb1aef")
-			(members "547c8c07-526b-4bee-987d-06eb3337ef2e" "81fa9861-e69c-415d-bc1f-22d82b9fc0ef"
-				"84f4722d-4374-4500-9b5c-99c5c8987e67" "9baed3d5-0821-42f8-b6ef-d3716e66556a"
-				"a09d442b-fbc2-4767-b04b-6a716492b3d0" "d5e18d2d-b97e-4fdd-94d2-e2bddb39f311"
+			(uuid "0ca765c2-3da0-4abd-a3de-055c01060e0a")
+			(members "52d08ed3-2709-4e92-8c29-89bd711796aa" "63b7cb23-9a7f-4f2a-b8a4-0306d79d8979"
+				"7456d520-5917-4401-8861-3390208d7fae" "89dbeba7-3b9d-4b17-9e3a-e8e99c907cc7"
+				"d922e8e6-58ba-40f7-b3cf-d4c74e3e135a" "ffa19a49-abca-44ce-b87d-76c45dba4012"
 			)
 		)
 		(group ""
-			(uuid "65ea13a3-6c92-47bf-b149-2891dfd4161e")
-			(members "0efd98e5-12e9-4cac-b340-a0694dde46d9" "559e6ba9-aeef-4d21-ae5b-9a80ba58f778"
-				"7093e83f-87be-43fd-b0de-b2e5d583d3ec" "750d4dd2-c726-41fa-a5ab-c70a672df82a"
-				"7c5106c9-cc70-448a-84b3-0934c0265aca" "ea46670b-adf3-4b16-89a4-51b5a31f1693"
+			(uuid "28cceec5-b6a3-4d53-9b6c-a9ba7e44a033")
+			(members "1fbe76bc-2338-4223-b145-d799e9dc7b8a" "465c8a8b-20aa-46bf-97fa-ab89355954a9"
+				"5df8847b-df40-480a-8991-7e4a965fa1d6" "621fe512-69da-456c-a056-b4fb8541a680"
+				"97a1f988-53d0-4ae6-87d3-13da37c09db7" "fb4bf7fa-e948-4536-a5f4-f7f8404599c0"
 			)
 		)
 		(embedded_fonts no)
@@ -1801,7 +1775,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1889,7 +1863,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

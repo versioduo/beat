@@ -158,7 +158,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -246,7 +246,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -334,7 +334,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -422,7 +422,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -445,7 +445,7 @@
 			(size 1 1)
 			(drill 1)
 			(layers "*.Mask")
-			(uuid "251d6640-e9b1-4ddc-8876-7378f7fd3c4d")
+			(uuid "26b16ab6-327e-406e-b808-33c9b47bfe87")
 		)
 		(embedded_fonts no)
 	)
@@ -492,7 +492,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -591,6 +591,19 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3e0c734-e857-43b2-b4c4-3a91c9d1e1d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/96abbcfb-4646-4a7d-bbca-fde2aab97088")
 		(sheetname "/")
 		(sheetfile "beat-cover-camp.kicad_sch")
@@ -603,7 +616,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "7b1f4a32-833c-45de-9ded-32610e52dd83")
+			(uuid "dcbbf9e1-b455-4c65-9418-dc73ee61625b")
 		)
 		(fp_line
 			(start -1.65 -5.1)
@@ -613,7 +626,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "dc2f13cf-a91b-4b70-8247-873eee9040d2")
+			(uuid "cce32e4d-1177-4d93-a265-cc658a00a86f")
 		)
 		(fp_line
 			(start 1.65 5.1)
@@ -623,7 +636,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "bae7adb9-d29c-477c-b647-d803131d1a55")
+			(uuid "0ad9b3b8-3d76-4fe8-9fc6-c1cf04a440cd")
 		)
 		(fp_line
 			(start -1.65 5.1)
@@ -633,35 +646,35 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "690ddc5c-9862-4cfd-9efa-6ad9dc9de4c7")
+			(uuid "38025a10-f8c4-4403-beb5-e76cb4049732")
 		)
 		(pad "" np_thru_hole circle
 			(at -1.4 -4.85 90)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Mask")
-			(uuid "2b39c0b6-7ed9-4401-a1c2-a7c63704cccb")
+			(uuid "be5b5f3b-a2f4-41a9-a7c0-79fb158d795f")
 		)
 		(pad "" np_thru_hole circle
 			(at -1.4 4.85 90)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Mask")
-			(uuid "6a347be5-453e-450b-89ef-0b642031a3c4")
+			(uuid "ae9a15e1-6e25-4475-95da-e83ceabaf351")
 		)
 		(pad "" np_thru_hole circle
 			(at 1.4 -4.85 90)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Mask")
-			(uuid "fbe6aa85-e03a-4a13-92bc-b1c94c4d8d3d")
+			(uuid "36338959-aad1-411d-ad2a-a88c53f610b7")
 		)
 		(pad "" np_thru_hole circle
 			(at 1.4 4.85 90)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Mask")
-			(uuid "0a9c0f9e-360a-49c4-9ad0-f9c68bed9c46")
+			(uuid "ed996be9-e5dd-4407-a452-cbbe2b9f4f71")
 		)
 		(embedded_fonts no)
 	)
@@ -708,7 +721,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -796,7 +809,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -884,7 +897,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -972,7 +985,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
