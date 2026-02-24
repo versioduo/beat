@@ -6352,9 +6352,9 @@
 		)
 		(uuid "41df1b22-66ae-4138-ae22-7c04a691224e")
 	)
-	(text "100R / Solenoid coil voltage divider\nSupplies reference voltage to a single\nchannel while the +24V power is\nswitched off."
+	(text "100R / Solenoid coil voltage divider supplies\nreference voltage to a single channel while\nthe PWM power is switched off."
 		(exclude_from_sim no)
-		(at 122.682 186.436 0)
+		(at 118.11 187.706 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9407,7 +9407,7 @@
 		(lib_id "V2_Connector_Header_2.54mm:1x08_Socket_Horizontal")
 		(at 156.21 170.18 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9448,15 +9448,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 156.21 170.18 0)
 			(effects
 				(font
@@ -9567,7 +9558,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 209.55 158.115 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9609,15 +9600,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 209.55 158.115 0)
 			(effects
 				(font
@@ -12768,7 +12750,7 @@
 		(lib_id "V2_Artwork:Board_beat")
 		(at 181.61 172.72 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12810,15 +12792,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 181.61 172.72 0)
 			(effects
 				(font
