@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 beat")
-		(date "2026-02-10")
-		(rev "2026-02-10")
+		(date "2026-03-11")
+		(rev "2026-03-11")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
 	)
@@ -228,8 +228,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -408,8 +408,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -15.24 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -588,8 +588,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -14.478 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -597,7 +597,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "603-CC603JRNPO9BN180"
+			(property "Mouser" "810-CGA3E2C0G1H180J"
 				(at 0 -23.368 0)
 				(show_name)
 				(effects
@@ -607,7 +607,7 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "CC0603JRNPO9BN180"
+			(property "Product" "CGA3E2C0G1H180J080AA"
 				(at 0 -20.574 0)
 				(show_name)
 				(effects
@@ -617,7 +617,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "YAGEO"
+			(property "Manufacturer" "TDK"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -758,8 +758,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -911,7 +911,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "10u"
+			(property "Value" "22u"
 				(at 1.524 -2.032 0)
 				(effects
 					(font
@@ -938,8 +938,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2030,8 +2030,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal, small symbol"
-				(at 0 -7.62 0)
+			(property "Description" ""
+				(at 0 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2761,8 +2761,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 -5.08 0)
+			(property "Description" ""
+				(at 0 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4881,8 +4881,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -15.24 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5046,8 +5046,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5211,8 +5211,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5376,8 +5376,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5541,8 +5541,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 -7.62 0)
+			(property "Description" "Push button"
+				(at 0 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5701,6 +5701,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -5826,6 +5827,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -8301,7 +8303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 116.84 36.83 0)
 			(effects
 				(font
@@ -8605,7 +8607,7 @@
 	)
 	(symbol
 		(lib_id "V2_Production:Layer_Numbers")
-		(at 210.82 173.99 0)
+		(at 177.8 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8613,7 +8615,7 @@
 		(dnp no)
 		(uuid "0602ed14-d2c2-4e47-84cb-eec621139215")
 		(property "Reference" "INFO101"
-			(at 205.74 167.6399 0)
+			(at 186.436 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +8624,7 @@
 			)
 		)
 		(property "Value" "Layer_Numbers"
-			(at 205.74 170.1799 0)
+			(at 172.72 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8632,7 +8634,7 @@
 			)
 		)
 		(property "Footprint" "V2_Production:Layer_Numbers"
-			(at 210.82 180.34 0)
+			(at 177.8 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8641,7 +8643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 176.53 0)
+			(at 177.8 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +8652,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 173.99 0)
+			(at 177.8 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,7 +8712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Push button"
 			(at 254 26.67 0)
 			(effects
 				(font
@@ -8806,7 +8808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 170.18 0)
 			(effects
 				(font
@@ -9175,7 +9177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" ""
 			(at 127 55.88 0)
 			(effects
 				(font
@@ -9556,7 +9558,7 @@
 	)
 	(symbol
 		(lib_id "V2_PCB_Devices:Button-bottom")
-		(at 209.55 158.115 0)
+		(at 207.01 150.495 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9564,7 +9566,7 @@
 		(dnp no)
 		(uuid "2ea90a9c-c79e-495b-b221-c6ea8643fdb4")
 		(property "Reference" "SWB101"
-			(at 205.74 151.765 0)
+			(at 213.106 148.971 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9573,7 +9575,7 @@
 			)
 		)
 		(property "Value" "Button-bottom"
-			(at 205.74 154.305 0)
+			(at 213.36 152.527 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9582,7 +9584,7 @@
 			)
 		)
 		(property "Footprint" "V2_PCB_Devices:PCB_Button-bottom"
-			(at 214.63 165.735 0)
+			(at 212.09 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9591,7 +9593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 158.115 0)
+			(at 207.01 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9600,7 +9602,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 158.115 0)
+			(at 207.01 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9662,7 +9664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 205.74 52.07 0)
 			(effects
 				(font
@@ -10058,7 +10060,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm")
-		(at 260.35 156.21 0)
+		(at 252.73 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10066,7 +10068,7 @@
 		(dnp no)
 		(uuid "3b61ee34-d016-4981-9fdc-4ceeb229f039")
 		(property "Reference" "H102"
-			(at 260.35 149.733 0)
+			(at 258.318 152.273 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10074,7 +10076,7 @@
 			)
 		)
 		(property "Value" "2mm"
-			(at 260.35 152.4 0)
+			(at 258.318 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,7 +10084,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2mm"
-			(at 260.35 161.29 0)
+			(at 252.73 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10091,7 +10093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 156.21 0)
+			(at 252.73 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10100,7 +10102,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 260.35 156.21 0)
+			(at 252.73 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,7 +10637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 119.38 161.29 0)
 			(effects
 				(font
@@ -11106,7 +11108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 226.06 91.44 0)
 			(effects
 				(font
@@ -11299,7 +11301,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm")
-		(at 260.35 167.64 0)
+		(at 252.73 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11307,7 +11309,7 @@
 		(dnp no)
 		(uuid "6cd046e4-3a13-4326-82b8-f9205dfbba3d")
 		(property "Reference" "H103"
-			(at 260.35 161.163 0)
+			(at 258.318 161.163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11315,7 +11317,7 @@
 			)
 		)
 		(property "Value" "2mm"
-			(at 260.35 163.83 0)
+			(at 258.318 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,7 +11325,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2mm"
-			(at 260.35 172.72 0)
+			(at 252.73 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,7 +11334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 167.64 0)
+			(at 252.73 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11341,7 +11343,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 260.35 167.64 0)
+			(at 252.73 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11559,7 +11561,7 @@
 	)
 	(symbol
 		(lib_id "V2_Production:Revision")
-		(at 182.88 187.96 0)
+		(at 177.8 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11567,7 +11569,7 @@
 		(dnp no)
 		(uuid "7eb06b9d-d894-478a-bc35-8590f2ab48d6")
 		(property "Reference" "INFO102"
-			(at 181.61 184.15 0)
+			(at 190.5 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11575,7 +11577,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 182.88 190.5 0)
+			(at 177.8 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11584,7 +11586,7 @@
 			)
 		)
 		(property "Footprint" "V2_Production:Revision"
-			(at 182.88 193.04 0)
+			(at 177.8 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11593,7 +11595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 187.96 0)
+			(at 177.8 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11602,7 +11604,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 187.96 0)
+			(at 177.8 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11753,7 +11755,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm")
-		(at 260.35 179.07 0)
+		(at 252.73 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11761,7 +11763,7 @@
 		(dnp no)
 		(uuid "8449623a-7a38-486c-8453-2ff54b300ce2")
 		(property "Reference" "H104"
-			(at 260.35 172.593 0)
+			(at 258.318 170.053 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11769,7 +11771,7 @@
 			)
 		)
 		(property "Value" "2mm"
-			(at 260.35 175.26 0)
+			(at 258.318 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11777,7 +11779,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2mm"
-			(at 260.35 184.15 0)
+			(at 252.73 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11786,7 +11788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 179.07 0)
+			(at 252.73 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11795,7 +11797,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 260.35 179.07 0)
+			(at 252.73 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11857,7 +11859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 179.07 52.07 0)
 			(effects
 				(font
@@ -11963,7 +11965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal, small symbol"
+		(property "Description" ""
 			(at 30.48 43.18 0)
 			(effects
 				(font
@@ -12060,7 +12062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 33.02 61.468 0)
 			(effects
 				(font
@@ -12069,7 +12071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-CC603JRNPO9BN180"
+		(property "Mouser" "810-CGA3E2C0G1H180J"
 			(at 33.02 70.358 0)
 			(effects
 				(font
@@ -12078,7 +12080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CC0603JRNPO9BN180"
+		(property "Product" "CGA3E2C0G1H180J080AA"
 			(at 33.02 67.564 0)
 			(effects
 				(font
@@ -12087,7 +12089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TDK"
 			(at 33.02 64.77 0)
 			(effects
 				(font
@@ -12156,7 +12158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 66.04 39.37 0)
 			(effects
 				(font
@@ -12392,7 +12394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 134.62 163.83 0)
 			(effects
 				(font
@@ -12457,7 +12459,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 277.495 151.13 0)
+		(at 268.605 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12465,7 +12467,7 @@
 		(dnp no)
 		(uuid "977377c2-2f87-473b-87b3-55cb2215e7cb")
 		(property "Reference" "FID101"
-			(at 274.955 144.78 0)
+			(at 271.907 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12474,7 +12476,7 @@
 			)
 		)
 		(property "Value" "Fiducial_Paste"
-			(at 274.955 147.32 0)
+			(at 266.065 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12484,7 +12486,7 @@
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 277.495 156.21 0)
+			(at 268.605 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12493,7 +12495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 277.495 151.13 0)
+			(at 268.605 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12502,7 +12504,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 277.495 151.13 0)
+			(at 268.605 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12564,7 +12566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 27.94 61.468 0)
 			(effects
 				(font
@@ -12573,7 +12575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-CC603JRNPO9BN180"
+		(property "Mouser" "810-CGA3E2C0G1H180J"
 			(at 27.94 70.358 0)
 			(effects
 				(font
@@ -12582,7 +12584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CC0603JRNPO9BN180"
+		(property "Product" "CGA3E2C0G1H180J080AA"
 			(at 27.94 67.564 0)
 			(effects
 				(font
@@ -12591,7 +12593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TDK"
 			(at 27.94 64.77 0)
 			(effects
 				(font
@@ -12748,7 +12750,7 @@
 	)
 	(symbol
 		(lib_id "V2_Artwork:Board_beat")
-		(at 181.61 172.72 0)
+		(at 177.8 161.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -12756,7 +12758,7 @@
 		(dnp no)
 		(uuid "ae20b3e9-d4fb-4345-8818-592da2911d7d")
 		(property "Reference" "ICON102"
-			(at 177.8 168.91 0)
+			(at 183.896 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,7 +12767,7 @@
 			)
 		)
 		(property "Value" "Board_axis"
-			(at 181.61 175.26 0)
+			(at 177.8 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12774,7 +12776,7 @@
 			)
 		)
 		(property "Footprint" "V2_Artwork:Board_beat_Small"
-			(at 181.61 177.8 0)
+			(at 177.8 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12783,7 +12785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 172.72 0)
+			(at 177.8 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12792,7 +12794,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 172.72 0)
+			(at 177.8 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12918,7 +12920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 149.86 55.88 0)
 			(effects
 				(font
@@ -13168,7 +13170,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 266.7 97.79 0)
 			(effects
 				(font
@@ -13194,7 +13196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 261.62 109.22 0)
 			(effects
 				(font
@@ -13299,7 +13301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 106.68 36.83 0)
 			(effects
 				(font
@@ -13364,7 +13366,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm")
-		(at 260.35 144.78 0)
+		(at 252.73 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13372,7 +13374,7 @@
 		(dnp no)
 		(uuid "c83f660c-602e-4fd3-89a2-9ee9568f5a0e")
 		(property "Reference" "H101"
-			(at 260.35 138.303 0)
+			(at 258.318 143.383 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13380,7 +13382,7 @@
 			)
 		)
 		(property "Value" "2mm"
-			(at 260.35 140.97 0)
+			(at 258.318 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13388,7 +13390,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_2mm"
-			(at 260.35 149.86 0)
+			(at 252.73 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13397,7 +13399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 144.78 0)
+			(at 252.73 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13406,7 +13408,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 260.35 144.78 0)
+			(at 252.73 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13630,7 +13632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 86.36 36.83 0)
 			(effects
 				(font
@@ -13695,7 +13697,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 277.495 163.83 0)
+		(at 268.605 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13703,7 +13705,7 @@
 		(dnp no)
 		(uuid "d70eefe3-c463-42c7-ad37-0fcb53cb0f3d")
 		(property "Reference" "FID102"
-			(at 274.955 157.48 0)
+			(at 271.907 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13712,7 +13714,7 @@
 			)
 		)
 		(property "Value" "Fiducial_Paste"
-			(at 278.765 160.02 0)
+			(at 269.875 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13721,7 +13723,7 @@
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 277.495 168.91 0)
+			(at 268.605 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13730,7 +13732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 277.495 163.83 0)
+			(at 268.605 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13739,7 +13741,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 277.495 163.83 0)
+			(at 268.605 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13799,7 +13801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Push button"
 			(at 129.54 73.66 0)
 			(effects
 				(font
@@ -14148,7 +14150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 96.52 36.83 0)
 			(effects
 				(font
@@ -14279,7 +14281,7 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:Fiducial_Paste")
-		(at 277.495 175.26 0)
+		(at 268.605 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14287,7 +14289,7 @@
 		(dnp no)
 		(uuid "f3ebfb05-17be-488d-b5c3-e4a62e3009d2")
 		(property "Reference" "FID103"
-			(at 274.955 168.91 0)
+			(at 271.907 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14296,7 +14298,7 @@
 			)
 		)
 		(property "Value" "Fiducial_Paste"
-			(at 274.955 171.45 0)
+			(at 266.065 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14306,7 +14308,7 @@
 			)
 		)
 		(property "Footprint" "V2_Fiducial:Fiducial_0.5mm_Mask1mm_Paste"
-			(at 277.495 180.34 0)
+			(at 268.605 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14315,7 +14317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 277.495 175.26 0)
+			(at 268.605 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14324,7 +14326,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 277.495 175.26 0)
+			(at 268.605 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14744,7 +14746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 226.06 93.98 0)
 			(effects
 				(font
@@ -14847,7 +14849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 71.12 121.92 0)
 			(effects
 				(font
@@ -14909,7 +14911,7 @@
 	)
 	(symbol
 		(lib_id "V2_Artwork:V2-logo")
-		(at 182.88 156.21 0)
+		(at 179.07 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14917,7 +14919,7 @@
 		(dnp no)
 		(uuid "ff5fa334-854e-4ca7-a359-9c419e0f5264")
 		(property "Reference" "ICON101"
-			(at 179.07 149.86 0)
+			(at 185.166 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14926,7 +14928,7 @@
 			)
 		)
 		(property "Value" "V2-logo"
-			(at 179.07 152.4 0)
+			(at 175.26 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14936,7 +14938,7 @@
 			)
 		)
 		(property "Footprint" "V2_Artwork:Logo_Small"
-			(at 182.88 163.83 0)
+			(at 179.07 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14945,7 +14947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 156.21 0)
+			(at 179.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14954,7 +14956,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 156.21 0)
+			(at 179.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

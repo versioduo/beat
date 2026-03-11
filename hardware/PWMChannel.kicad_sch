@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Solenoid Channel")
-		(date "2026-02-10")
-		(rev "2026-02-10")
+		(date "2026-03-11")
+		(rev "2026-03-11")
 		(company "Power MOSFET + RGB LED")
 	)
 	(lib_symbols
@@ -58,8 +58,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -191,7 +191,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Diode:S310FA"
+		(symbol "V2_Diode:PMEG6030AEXEX"
 			(pin_numbers
 				(hide yes)
 			)
@@ -202,23 +202,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "S310FA"
-				(at 0 -3.81 0)
+			(property "Value" "PMEG6030AEXEX"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "V2_Diode_SMD:D_SOD-123F"
-				(at -0.254 -7.62 0)
+			(property "Footprint" "V2_Diode_SMD:D_SOD-123HP"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -244,7 +244,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "512-S310FA"
+			(property "Mouser" "771-PMEG6030AEXEX"
 				(at 0 -15.24 0)
 				(show_name)
 				(effects
@@ -254,7 +254,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "onsemi"
+			(property "Manufacturer" "Nexperia"
 				(at 0 -10.16 0)
 				(show_name)
 				(effects
@@ -264,7 +264,7 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "S310FA"
+			(property "Product" "PMEG6030AEXEX"
 				(at 0 -12.7 0)
 				(show_name)
 				(effects
@@ -274,7 +274,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "S310FA_0_1"
+			(symbol "PMEG6030AEXEX_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -312,7 +312,7 @@
 					)
 				)
 			)
-			(symbol "S310FA_1_1"
+			(symbol "PMEG6030AEXEX_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -971,6 +971,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -1357,7 +1358,7 @@
 		(uuid "f4243247-b268-40b7-bbe5-e5f9a09522d7")
 	)
 	(symbol
-		(lib_id "V2_Diode:S310FA")
+		(lib_id "V2_Diode:PMEG6030AEXEX")
 		(at 146.05 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1366,7 +1367,7 @@
 		(dnp no)
 		(uuid "003b2124-2dc9-478e-9f17-a2389bfd869b")
 		(property "Reference" "D201"
-			(at 148.59 87.63 90)
+			(at 144.018 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,15 +1375,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S310FA"
-			(at 152.4 90.17 90)
+		(property "Value" "PMEG6030AEXEX"
+			(at 152.146 84.582 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "V2_Diode_SMD:D_SOD-123F"
+		(property "Footprint" "V2_Diode_SMD:D_SOD-123HP"
 			(at 139.065 88.9 0)
 			(effects
 				(font
@@ -1409,7 +1410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "512-S310FA"
+		(property "Mouser" "771-PMEG6030AEXEX"
 			(at 130.81 88.9 0)
 			(effects
 				(font
@@ -1418,7 +1419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "Nexperia"
 			(at 135.89 88.9 0)
 			(effects
 				(font
@@ -1427,7 +1428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "S310FA"
+		(property "Product" "PMEG6030AEXEX"
 			(at 133.35 88.9 0)
 			(effects
 				(font
@@ -1507,7 +1508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 133.35 101.6 0)
 			(effects
 				(font
