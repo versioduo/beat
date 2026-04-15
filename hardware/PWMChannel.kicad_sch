@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 beat")
-		(date "2026-03-30")
+		(date "2026-04-14")
 		(rev "2026-03-30")
-		(company "Power MOSFET + RGB LED")
+		(company "Versio Duo")
+		(comment 1 "Solenoid Controller")
 	)
 	(lib_symbols
 		(symbol "V2_Capacitor:0603_0u1"
@@ -25,7 +26,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +37,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -47,7 +48,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_0603"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -81,6 +82,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -224,27 +236,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 7.62 0)
+				(at -2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "PMEG6030AEXEX"
-				(at 0 5.08 0)
+				(at -2.54 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Diode_SMD:D_SOD-123HP"
-				(at 0 -7.62 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -277,6 +291,28 @@
 				)
 			)
 			(property "Mouser" "771-PMEG6030AEXEX"
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
 				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -287,19 +323,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Nexperia"
-				(at 0 -10.16 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Product" "PMEG6030AEXEX"
-				(at 0 -12.7 0)
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -310,7 +335,7 @@
 				)
 			)
 			(property "Rating" "60V"
-				(at 0 -17.78 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -408,27 +433,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D3"
-				(at 0 10.414 0)
+				(at -5.08 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "WS2812"
-				(at 0 7.874 0)
+				(at -5.08 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_LED:WS2812-2020"
-				(at 0 -9.906 0)
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -451,7 +478,7 @@
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
-				(at 0 -6.858 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -462,7 +489,7 @@
 				)
 			)
 			(property "Manufacturer" "Worldsemi"
-				(at 0 -15.494 0)
+				(at 0 -16.51 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -473,7 +500,7 @@
 				)
 			)
 			(property "Product" "WS2812B-2020"
-				(at 0 -12.954 0)
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -484,7 +511,29 @@
 				)
 			)
 			(property "LCSC" "C965555"
-				(at 0 -18.288 0)
+				(at 0 -21.59 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "LED:${SYMBOL_NAME}"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "15mA"
+				(at 0 -24.13 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -755,6 +804,17 @@
 			)
 			(property "Product" "IQE006NE2LM5CG"
 				(at 0 -25.4 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "MOSFET:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1571,6 +1631,39 @@
 				)
 			)
 		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 134.62 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 146.05 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 146.05 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24e0af13-64dc-4a11-a32e-3e9747f385c2")
 		)
@@ -1698,6 +1791,39 @@
 		)
 		(property "Rating" "50V"
 			(at 133.35 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 133.35 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 133.35 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 133.35 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1856,6 +1982,39 @@
 				)
 			)
 		)
+		(property "Id" "MOSFET:${SYMBOL_NAME}"
+			(at 130.81 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 130.81 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 130.81 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd7a1801-7826-4f62-bcf7-7acd3b25f6b4")
 		)
@@ -1897,7 +2056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72972ae1-7747-4f0d-a299-e8345339dc65")
-		(property "Reference" "#PWR203"
+		(property "Reference" "#PWR0203"
 			(at 166.37 127 0)
 			(hide yes)
 			(show_name no)
@@ -1958,19 +2117,19 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/20fe3b49-6fc0-49b3-882e-b60ec2c37622"
-					(reference "#PWR403")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/6b0ff6e6-8459-48b3-ad82-b75391ec7027"
-					(reference "#PWR203")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d14b4538-8a69-4c12-9312-e76942186e04"
-					(reference "#PWR503")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8fd4e45-6455-499e-826d-b4439d3dc293"
-					(reference "#PWR303")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -2075,6 +2234,50 @@
 				)
 			)
 		)
+		(property "Id" "LED:${SYMBOL_NAME}"
+			(at 152.4 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pin" ""
+			(at 152.4 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 152.4 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2e4a623-fc46-45e2-bfe9-6e1fad990af5")
 		)
@@ -2119,7 +2322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e78823d7-d202-449e-b2a4-25cb6fe676b2")
-		(property "Reference" "#PWR201"
+		(property "Reference" "#PWR0201"
 			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2180,19 +2383,19 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/20fe3b49-6fc0-49b3-882e-b60ec2c37622"
-					(reference "#PWR401")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/6b0ff6e6-8459-48b3-ad82-b75391ec7027"
-					(reference "#PWR201")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d14b4538-8a69-4c12-9312-e76942186e04"
-					(reference "#PWR501")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8fd4e45-6455-499e-826d-b4439d3dc293"
-					(reference "#PWR301")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -2209,7 +2412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f99c76f0-9274-49c3-a364-85df246f1c6a")
-		(property "Reference" "#PWR202"
+		(property "Reference" "#PWR0202"
 			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2269,19 +2472,19 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/20fe3b49-6fc0-49b3-882e-b60ec2c37622"
-					(reference "#PWR402")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/6b0ff6e6-8459-48b3-ad82-b75391ec7027"
-					(reference "#PWR202")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d14b4538-8a69-4c12-9312-e76942186e04"
-					(reference "#PWR502")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8fd4e45-6455-499e-826d-b4439d3dc293"
-					(reference "#PWR302")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
