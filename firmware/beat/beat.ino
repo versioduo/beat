@@ -4,7 +4,7 @@
 #include <V2MIDI.h>
 #include <V2Solenoids.h>
 
-V2DEVICE_METADATA("com.versioduo.beat", 13, "versioduo:samd:beat");
+V2DEVICE_METADATA("com.versioduo.beat", 14, "versioduo:samd:beat");
 
 static constexpr uint8_t    nPorts{4};
 static V2LED::WS2812        LED(nPorts + 2, PIN_LED_WS2812, &sercom1, SPI_PAD_0_SCK_1, PIO_SERCOM);
@@ -628,10 +628,10 @@ private:
 static class MIDI {
 public:
   void loop() {
-    if (Device.usb.midi.receive(&_midi))
+    if (Device.usb.midi.receive(_midi))
       Device.dispatch(&Device.usb.midi, &_midi);
 
-    if (MIDISerial.receive(&_midi))
+    if (MIDISerial.receive(_midi))
       Device.dispatch(&Device.usb.midi, &_midi);
   }
 
