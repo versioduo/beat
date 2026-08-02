@@ -4,7 +4,7 @@
 #include <V2MIDI.h>
 #include <V2Solenoids.h>
 
-V2DEVICE_METADATA("com.versioduo.beat", 14, "versioduo:samd:beat");
+V2DEVICE_METADATA("com.versioduo.beat", 15, "versioduo:samd:beat");
 
 static constexpr uint8_t    nPorts{4};
 static V2LED::WS2812        LED(nPorts + 2, PIN_LED_WS2812, &sercom1, SPI_PAD_0_SCK_1, PIO_SERCOM);
@@ -145,10 +145,9 @@ public:
     metadata.product     = "V2 beat";
     metadata.home        = "https://versioduo.com/#beat";
 
-    help.device = "4 channels intelligent USB-powered solenoid controller. Small solenoids with 3 – 15 Ω resistance "
-                  "(a 3 V version is typically ~7 Ω) are driven by 5 V USB power, scaled with a 50 kHz PWM signal. "
-                  "The maximum current draw is internally limited to ~3 A.";
-
+    help.device        = "4 channels intelligent USB-powered solenoid controller. Small solenoids with 3 – 15 Ω resistance "
+                         "(a 3 V version is typically ~7 Ω) are driven by 5 V USB power, scaled with a 50 kHz PWM signal. "
+                         "The maximum current draw is internally limited to ~3 A.";
     help.configuration = "# Playing Notes\n"
                          "The 4 channels are configured to listen to incoming notes. The watts and seconds "
                          "values of the note velocity 1 and 127 are configured. The velocity of the incoming note "
@@ -314,7 +313,7 @@ private:
 
   void exportLinks(JsonArray json) override {
     JsonObject jsonLink     = json.add<JsonObject>();
-    jsonLink["description"] = "Play drum patterns with a web sequencer";
+    jsonLink["description"] = "Web Sequencer";
 
     char link[128] = "https://versioduo.com/sequencer?connect=";
     strlcat(link, usb.name ? usb.name : metadata.product, sizeof(link));
@@ -332,8 +331,12 @@ private:
   void exportSettings(JsonArray json) override {
     {
       JsonObject setting = json.add<JsonObject>();
-      setting["type"]    = "number";
+      setting["type"]    = "title";
       setting["title"]   = "MIDI";
+    }
+    {
+      JsonObject setting = json.add<JsonObject>();
+      setting["type"]    = "number";
       setting["label"]   = "Channel";
       setting["min"]     = 1;
       setting["max"]     = 16;
@@ -345,7 +348,6 @@ private:
       {
         JsonObject setting = json.add<JsonObject>();
         setting["type"]    = "title";
-
         char name[16];
         sprintf(name, "Output %d", i + 1);
         setting["title"] = name;
@@ -354,45 +356,37 @@ private:
         JsonObject setting = json.add<JsonObject>();
         setting["type"]    = "note";
         setting["label"]   = "Note";
-
         setting["default"] = ConfigurationDefault.outputs[i].note;
-
         char path[64];
         sprintf(path, "outputs[%d]/note", i);
         setting["path"] = path;
       }
       {
-        JsonObject setting = json.add<JsonObject>();
-        setting["type"]    = "pulse";
-        setting["ruler"]   = true;
-        setting["label"]   = "Min";
-        setting["index"]   = i;
-
-        JsonObject limit = setting["limit"].to<JsonObject>();
-        limit["watts"]   = 10;
-
+        JsonObject setting  = json.add<JsonObject>();
+        setting["type"]     = "pulse";
+        setting["ruler"]    = true;
+        setting["label"]    = "Min";
+        setting["index"]    = i;
+        JsonObject limit    = setting["limit"].to<JsonObject>();
+        limit["watts"]      = 10;
         JsonObject defaults = setting["default"].to<JsonObject>();
         defaults["watts"]   = serialized(String(ConfigurationDefault.outputs[i].min.watts, 1));
         defaults["seconds"] = serialized(String(ConfigurationDefault.outputs[i].min.seconds, 3));
-
         char path[64];
         sprintf(path, "outputs[%d]/min", i);
         setting["path"] = path;
       }
       {
-        JsonObject setting = json.add<JsonObject>();
-        setting["type"]    = "pulse";
-        setting["ruler"]   = true;
-        setting["label"]   = "Max";
-        setting["index"]   = i;
-
-        JsonObject limit = setting["limit"].to<JsonObject>();
-        limit["watts"]   = 10;
-
+        JsonObject setting  = json.add<JsonObject>();
+        setting["type"]     = "pulse";
+        setting["ruler"]    = true;
+        setting["label"]    = "Max";
+        setting["index"]    = i;
+        JsonObject limit    = setting["limit"].to<JsonObject>();
+        limit["watts"]      = 10;
         JsonObject defaults = setting["default"].to<JsonObject>();
         defaults["watts"]   = serialized(String(ConfigurationDefault.outputs[i].max.watts, 1));
         defaults["seconds"] = serialized(String(ConfigurationDefault.outputs[i].max.seconds, 3));
-
         char path[64];
         sprintf(path, "outputs[%d]/max", i);
         setting["path"] = path;
@@ -400,9 +394,7 @@ private:
       {
         JsonObject setting = json.add<JsonObject>();
         setting["type"]    = "toggle";
-        setting["ruler"]   = true;
         setting["label"]   = "Fade In";
-
         char path[64];
         sprintf(path, "outputs[%d]/fadeIn", i);
         setting["path"] = path;
@@ -411,7 +403,6 @@ private:
         JsonObject setting = json.add<JsonObject>();
         setting["type"]    = "toggle";
         setting["label"]   = "Fade Out";
-
         char path[64];
         sprintf(path, "outputs[%d]/fadeOut", i);
         setting["path"] = path;
@@ -419,11 +410,16 @@ private:
     }
 
     {
+      JsonObject setting  = json.add<JsonObject>();
+      setting["type"]     = "title";
+      setting["title"]    = "Pattern";
+      setting["subtitle"] = "Played with a long-press of the Button";
+    }
+    {
       JsonObject setting = json.add<JsonObject>();
       setting["type"]    = "json";
       setting["text"]    = "Paste the clipboard from V2 sequencer";
       setting["name"]    = "com.versioduo.sequencer.pattern";
-      setting["title"]   = "Pattern";
       setting["path"]    = "pattern";
     }
   }
