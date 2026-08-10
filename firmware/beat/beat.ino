@@ -4,7 +4,7 @@
 #include <V2MIDI.h>
 #include <V2Solenoids.h>
 
-V2DEVICE_METADATA("com.versioduo.beat", 15, "versioduo:samd:beat");
+V2DEVICE_METADATA("com.versioduo.beat", 16, "versioduo:samd:beat");
 
 static constexpr uint8_t    nPorts{4};
 static V2LED::WS2812        LED(nPorts + 2, PIN_LED_WS2812, &sercom1, SPI_PAD_0_SCK_1, PIO_SERCOM);
@@ -57,40 +57,38 @@ public:
   }
 
   void setLED(LEDMode state, uint8_t port = 0, float value = -1) override {
-    if (LED.isRainbow())
+    if (LED.rainbow())
       return;
 
     switch (state) {
       case LEDMode::Off:
-        LED.setBrightness(port, 0);
+        LED.brightness(0, port);
         break;
 
       case LEDMode::Initialize:
-        LED.setHSV(nPorts + 0, V2Colour::Cyan, 1, 0.25);
-        LED.setHSV(nPorts + 1, V2Colour::Cyan, 1, 0.25);
+        LED.hsv({V2Colour::Cyan, 1, 0.25}, nPorts + 0, 2);
         break;
 
       case LEDMode::Ready:
-        LED.setHSV(nPorts + 0, V2Colour::Orange, 1, 0.25);
-        LED.setHSV(nPorts + 1, V2Colour::Orange, 1, 0.25);
+        LED.hsv({V2Colour::Orange, 1, 0.25}, nPorts + 0, 2);
         break;
 
       case LEDMode::Resistance:
         // Map the fraction of the configured resistance range from cyan to magenta.
-        LED.setHSV(port, (float)V2Colour::Cyan + (120.f * value), 1, 0.15);
+        LED.hsv({V2Colour::Cyan + (120.f * value), 1, 0.15}, port);
         break;
 
       case LEDMode::Power: {
         const float fraction = powf(value / 100.f, 8);
-        LED.setHSV(port, V2Colour::Orange, 1, 0.3f + (0.3f * fraction));
+        LED.hsv({V2Colour::Orange, 1, 0.3f + (0.3f * fraction)}, port);
       } break;
 
       case LEDMode::ShortCircuit:
-        LED.setHSV(port, V2Colour::Red, 1, 1);
+        LED.hsv({V2Colour::Red, 1, 1}, port);
         break;
 
       case LEDMode::OverCurrent:
-        LED.splashHSV(0.2, V2Colour::Magenta, 1, 0.5);
+        LED.flash({V2Colour::Magenta, 1, 0.5}, 0.2);
         break;
     }
   }
@@ -673,8 +671,8 @@ public:
 
 private:
   void light() {
-    LED.setHSV(nPorts + 0, _cycle ? V2Colour::Blue : V2Colour::Orange, 1, 0.5);
-    LED.setHSV(nPorts + 1, _cycle ? V2Colour::Orange : V2Colour::Blue, 1, 0.5);
+    LED.hsv({_cycle ? V2Colour::Blue : V2Colour::Orange, 1, 0.5}, nPorts + 0);
+    LED.hsv({_cycle ? V2Colour::Orange : V2Colour::Blue, 1, 0.5}, nPorts + 1);
     _cycle = !_cycle;
   }
 
@@ -707,7 +705,7 @@ void setup() {
   Serial.begin(9600);
 
   LED.begin();
-  LED.setMaxBrightness(0.5);
+  LED.brightnessMax(0.5);
 
   digitalWrite(PIN_POWER_ENABLE, LOW);
   pinMode(PIN_POWER_ENABLE, OUTPUT);
