@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 beat")
-		(date "2026-04-14")
-		(rev "2026-03-30")
+		(date "2026-08-11")
+		(rev "2026-08-11")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
 	)
@@ -1642,28 +1642,6 @@
 				)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 146.05 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 146.05 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "24e0af13-64dc-4a11-a32e-3e9747f385c2")
 		)
@@ -1802,28 +1780,6 @@
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
 			(at 133.35 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 133.35 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 133.35 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1993,28 +1949,6 @@
 				)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 130.81 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 130.81 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "fd7a1801-7826-4f62-bcf7-7acd3b25f6b4")
 		)
@@ -2056,7 +1990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72972ae1-7747-4f0d-a299-e8345339dc65")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR203"
 			(at 166.37 127 0)
 			(hide yes)
 			(show_name no)
@@ -2117,19 +2051,19 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/20fe3b49-6fc0-49b3-882e-b60ec2c37622"
-					(reference "#PWR0403")
+					(reference "#PWR403")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/6b0ff6e6-8459-48b3-ad82-b75391ec7027"
-					(reference "#PWR0203")
+					(reference "#PWR203")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d14b4538-8a69-4c12-9312-e76942186e04"
-					(reference "#PWR0503")
+					(reference "#PWR503")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8fd4e45-6455-499e-826d-b4439d3dc293"
-					(reference "#PWR0303")
+					(reference "#PWR303")
 					(unit 1)
 				)
 			)
@@ -2256,28 +2190,6 @@
 				)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 152.4 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 152.4 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c2e4a623-fc46-45e2-bfe9-6e1fad990af5")
 		)
@@ -2322,7 +2234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e78823d7-d202-449e-b2a4-25cb6fe676b2")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR201"
 			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2383,19 +2295,19 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/20fe3b49-6fc0-49b3-882e-b60ec2c37622"
-					(reference "#PWR0401")
+					(reference "#PWR401")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/6b0ff6e6-8459-48b3-ad82-b75391ec7027"
-					(reference "#PWR0201")
+					(reference "#PWR201")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d14b4538-8a69-4c12-9312-e76942186e04"
-					(reference "#PWR0501")
+					(reference "#PWR501")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8fd4e45-6455-499e-826d-b4439d3dc293"
-					(reference "#PWR0301")
+					(reference "#PWR301")
 					(unit 1)
 				)
 			)
@@ -2412,7 +2324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f99c76f0-9274-49c3-a364-85df246f1c6a")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR202"
 			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2430,6 +2342,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 92 187 1)
 				)
 			)
 		)
@@ -2472,19 +2385,19 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/20fe3b49-6fc0-49b3-882e-b60ec2c37622"
-					(reference "#PWR0402")
+					(reference "#PWR402")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/6b0ff6e6-8459-48b3-ad82-b75391ec7027"
-					(reference "#PWR0202")
+					(reference "#PWR202")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d14b4538-8a69-4c12-9312-e76942186e04"
-					(reference "#PWR0502")
+					(reference "#PWR502")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8fd4e45-6455-499e-826d-b4439d3dc293"
-					(reference "#PWR0302")
+					(reference "#PWR302")
 					(unit 1)
 				)
 			)

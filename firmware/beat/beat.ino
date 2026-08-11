@@ -6,11 +6,11 @@
 
 V2DEVICE_METADATA("com.versioduo.beat", 16, "versioduo:samd:beat");
 
-static constexpr uint8_t    nPorts{4};
-static V2LED::WS2812        LED(nPorts + 2, PIN_LED_WS2812, &sercom1, SPI_PAD_0_SCK_1, PIO_SERCOM);
-static V2MIDI::SerialDevice MIDISerial(&SerialMIDI);
-static V2Base::Timer::PWM   PWM(0, 50000);
-static V2Base::Analog::ADC  ADC(0);
+static constexpr uint8_t         nPorts{4};
+static V2LED::WS2812<nPorts + 2> LED(PIN_LED_WS2812, sercom1, SPI_PAD_0_SCK_1, PIO_SERCOM);
+static V2MIDI::SerialDevice      MIDISerial(&SerialMIDI);
+static V2Base::Timer::PWM        PWM(0, 50000);
+static V2Base::Analog::ADC       ADC(0);
 
 static class Solenoids : public V2Solenoids<nPorts> {
 public:
