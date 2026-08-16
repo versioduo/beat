@@ -4,11 +4,11 @@
 #include <V2MIDI.h>
 #include <V2Solenoids.h>
 
-V2DEVICE_METADATA("com.versioduo.beat", 16, "versioduo:samd:beat");
+V2DEVICE_METADATA("com.versioduo.beat", 17, "versioduo:samd:beat");
 
 static constexpr uint8_t         nPorts{4};
 static V2LED::WS2812<nPorts + 2> LED(PIN_LED_WS2812, sercom1, SPI_PAD_0_SCK_1, PIO_SERCOM);
-static V2MIDI::SerialDevice      MIDISerial(&SerialMIDI);
+static V2MIDI::SerialDevice      MIDISerial(&SerialMIDI, "serial");
 static V2Base::Timer::PWM        PWM(0, 50000);
 static V2Base::Analog::ADC       ADC(0);
 
@@ -313,8 +313,11 @@ private:
     JsonObject jsonLink     = json.add<JsonObject>();
     jsonLink["description"] = "Web Sequencer";
 
-    char link[128] = "https://versioduo.com/sequencer?connect=";
-    strlcat(link, usb.name ? usb.name : metadata.product, sizeof(link));
+    std::string link{"https://versioduo.com/sequencer?connect="};
+    if (!usb.name.empty())
+      link.append(usb.name);
+    else
+      link.append(metadata.product);
     jsonLink["target"] = link;
   }
 
@@ -719,7 +722,7 @@ void setup() {
   ADC.addChannel(V2Base::Analog::ADC::getChannel(PIN_RESISTANCE_SENSE));
 
   MIDISerial.begin();
-  Device.serial = &MIDISerial;
+  Device.ports.push_back(&MIDISerial);
 
   Button.begin();
   Device.begin();
