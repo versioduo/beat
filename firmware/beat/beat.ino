@@ -4,7 +4,7 @@
 #include <V2MIDI.h>
 #include <V2Solenoids.h>
 
-V2DEVICE_METADATA("com.versioduo.beat", 17, "versioduo:samd:beat");
+static V2DeviceFirmware(Firmware, "com.versioduo.beat", 17, "versioduo:samd:beat");
 
 static constexpr uint8_t         nPorts{4};
 static V2LED::WS2812<nPorts + 2> LED(PIN_LED_WS2812, sercom1, SPI_PAD_0_SCK_1, PIO_SERCOM);
@@ -142,21 +142,21 @@ public:
     metadata.vendor      = "Versio Duo";
     metadata.product     = "V2 beat";
     metadata.home        = "https://versioduo.com/#beat";
-
-    help.device        = "4 channels intelligent USB-powered solenoid controller. Small solenoids with 3 – 15 Ω resistance "
-                         "(a 3 V version is typically ~7 Ω) are driven by 5 V USB power, scaled with a 50 kHz PWM signal. "
-                         "The maximum current draw is internally limited to ~3 A.";
-    help.configuration = "# Playing Notes\n"
-                         "The 4 channels are configured to listen to incoming notes. The watts and seconds "
-                         "values of the note velocity 1 and 127 are configured. The velocity of the incoming note "
-                         "is used to calculate a pulse in the configured range.\n"
-                         "A currently active pulse will end if a NoteOff is received. By configuring larger values "
-                         "for seconds, this can be used to drive solenoids with the actual note length.\n"
-                         "# LEDs\n"
-                         "The colour of the channel LED reflect the resistance of the connected solenoid. A red channel LED signals that "
-                         "the channel is short-circuit and internally disabled. The solenoid connection should be checked.\n"
-                         "A magenta-coloured flash of all  LEDs shows that the power limit has been reached, and the device is reset. The "
-                         "velocity of the playing notes or the number of simultaneously active tracks should be reduced.";
+    metadata.firmware    = &Firmware;
+    help.device          = "4 channels intelligent USB-powered solenoid controller. Small solenoids with 3 – 15 Ω resistance "
+                           "(a 3 V version is typically ~7 Ω) are driven by 5 V USB power, scaled with a 50 kHz PWM signal. "
+                           "The maximum current draw is internally limited to ~3 A.";
+    help.configuration   = "# Playing Notes\n"
+                           "The 4 channels are configured to listen to incoming notes. The watts and seconds "
+                           "values of the note velocity 1 and 127 are configured. The velocity of the incoming note "
+                           "is used to calculate a pulse in the configured range.\n"
+                           "A currently active pulse will end if a NoteOff is received. By configuring larger values "
+                           "for seconds, this can be used to drive solenoids with the actual note length.\n"
+                           "# LEDs\n"
+                           "The colour of the channel LED reflect the resistance of the connected solenoid. A red channel LED signals that "
+                           "the channel is short-circuit and internally disabled. The solenoid connection should be checked.\n"
+                           "A magenta-coloured flash of all  LEDs shows that the power limit has been reached, and the device is reset. The "
+                           "velocity of the playing notes or the number of simultaneously active tracks should be reduced.";
 
     // https://github.com/versioduo/arduino-board-package/blob/main/boards.txt
     usb.pid            = 0xda30;
