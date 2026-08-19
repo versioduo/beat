@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 beat")
-		(date "2026-08-11")
-		(rev "2026-08-11")
+		(date "2026-08-19")
+		(rev "2026-08-19")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
 	)
@@ -2102,7 +2102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f61fc49-4b3c-47aa-ae6d-bd2672583d5c")
-		(property "Reference" "#PWR603"
+		(property "Reference" "#PWR0603"
 			(at 187.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2163,7 +2163,7 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR603")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -2314,7 +2314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59de0765-f7da-444e-b4e0-ed2ee7a891c8")
-		(property "Reference" "#PWR601"
+		(property "Reference" "#PWR0601"
 			(at 149.86 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2375,7 +2375,7 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR601")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -3092,7 +3092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9caf35a-0e4b-4d90-885e-46c9c749e0c2")
-		(property "Reference" "#PWR602"
+		(property "Reference" "#PWR0602"
 			(at 187.96 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3153,7 +3153,7 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR602")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -3170,7 +3170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd2fa09d-e317-4510-a889-31de0e16c925")
-		(property "Reference" "#PWR604"
+		(property "Reference" "#PWR0604"
 			(at 193.04 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3231,7 +3231,7 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR604")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)

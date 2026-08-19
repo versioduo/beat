@@ -1,0 +1,38 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "215e1b74-0f62-4745-88bf-8910ae295220")
+	(paper "A4")
+	(title_block
+		(title "default")
+		(date "2026-06-06")
+		(rev "2026-06-06")
+		(company "Versio Duo")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "V2_A4.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WABBs0PAPaWSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARABjlVmr
+				uudFPLoZj1VmWb8lbD7pPgUABMrQX7Na1VKPYvF6Y0l96//2zbdTadZa7KqXZ43NfUUUIGCCRp74
+				hRhEBdnlpi6ppf6k++BnFcsur9lJ2mHGl/93yyvmu2/eOvyx+u/vTUr9kl/+8G5S/2uw1O/p4F2t
+				Z9zZH+k95wbVytxaGnaq6KaiClvXeHgbhuMi7guB082G4mATw0+USoSLZLaLibD3Pvf9fEM/OfjN
+				0Ce73DbOK/MKgmC1GCDwWXOsB4EKYf3StkmD0m0bhKu2o2wT6mf+SlI7NJSGZVJxKBw7WAlx1KAn
+				rMu6rVbVNkkX6aiI/e/1cNQ/X5LUoUKztIHhNNACV6ABRYOUmppZnDRrYGTm5lgHuKUBCqUheRmB
+				mtErmC2cYpdvw4QpAS+HW0x9ni3oxOjDIsfMJMoe1TEVRT9Vsuj5tcL6QokDa/DzUfliHjoPDuAp
+				yB0UltwFSGjQ8qh9YsiEAU6ZM/MH8LbEFFL4TXKm8ij9cNrJ7wlu2DKOnbAzzIEHWY4okcCT1GJg
+				bYhzrGivkMr2LxUEt7459HIzhg2rdlkB6u5W3N7YeuhB6m4vyMxrpWQtkChBv9Dfi56Y6YgbQOoB
+				pgo=|
+			)
+			(checksum "6080E9E16B39514519B8031C50AB7B2F")
+		)
+	)
+)
