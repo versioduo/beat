@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(date "2026-08-28")
+		(date "2026-08-30")
 		(rev "2026-08-19")
 	)
 	(layers
@@ -726,7 +726,7 @@
 		)
 		(path "/d14b4538-8a69-4c12-9312-e76942186e04/a8c5a656-7d1b-4cdd-bab2-b71575b9f744")
 		(sheetname "/PWM 4/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1233,7 +1233,7 @@
 		)
 		(pad "" smd roundrect
 			(at -3.1 -3.05 270)
-			(size 0.45 1)
+			(size 0.45 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1)
 			(uuid "ec14b143-37ac-4fb2-bf5a-099fbeeb7f04")
@@ -1247,14 +1247,14 @@
 		)
 		(pad "" smd roundrect
 			(at -2.35 -3.05 270)
-			(size 0.45 1)
+			(size 0.45 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1)
 			(uuid "ff1f44ff-54c9-40e2-a3d2-a5517602fd67")
 		)
 		(pad "" smd roundrect
 			(at 2.35 -3.05 270)
-			(size 0.45 1)
+			(size 0.45 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1)
 			(uuid "5249ea67-9b84-4472-ad39-c76d1005911d")
@@ -1268,7 +1268,7 @@
 		)
 		(pad "" smd roundrect
 			(at 3.1 -3.05 270)
-			(size 0.45 1)
+			(size 0.45 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1)
 			(uuid "b8d20f6e-ad5f-4f98-afa1-fac1d54595dd")
@@ -1609,7 +1609,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/20fe3b49-6fc0-49b3-882e-b60ec2c37622/2ed9a3f4-436e-4806-9ce4-c26ddd907382")
 		(sheetname "/PWM 3/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1835,7 +1835,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317/60509237-0c50-404e-9d94-da81e9d83bf3")
 		(sheetname "/MIDI In/")
-		(sheetfile "MIDIIn.kicad_sch")
+		(sheetfile "MIDI-In.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2451,7 +2451,7 @@
 		)
 		(path "/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317/d324686e-af6a-48dd-9137-54989905b8a7")
 		(sheetname "/MIDI In/")
-		(sheetfile "MIDIIn.kicad_sch")
+		(sheetfile "MIDI-In.kicad_sch")
 		(attr allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2970,7 +2970,7 @@
 		)
 		(path "/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317/aaeda754-d611-45ae-83e4-da00f71803e8")
 		(sheetname "/MIDI In/")
-		(sheetfile "MIDIIn.kicad_sch")
+		(sheetfile "MIDI-In.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3467,7 +3467,7 @@
 		)
 		(path "/d14b4538-8a69-4c12-9312-e76942186e04/41b35de0-2035-47fc-be41-fa9fc93ba591")
 		(sheetname "/PWM 4/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6820,7 +6820,7 @@
 		)
 		(path "/e8fd4e45-6455-499e-826d-b4439d3dc293/41b35de0-2035-47fc-be41-fa9fc93ba591")
 		(sheetname "/PWM 2/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7578,7 +7578,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317/5032212f-d852-40b1-8b09-65abd10e79fd")
 		(sheetname "/MIDI In/")
-		(sheetfile "MIDIIn.kicad_sch")
+		(sheetfile "MIDI-In.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8343,7 +8343,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e8fd4e45-6455-499e-826d-b4439d3dc293/2ed9a3f4-436e-4806-9ce4-c26ddd907382")
 		(sheetname "/PWM 2/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8569,7 +8569,7 @@
 		)
 		(path "/20fe3b49-6fc0-49b3-882e-b60ec2c37622/003b2124-2dc9-478e-9f17-a2389bfd869b")
 		(sheetname "/PWM 3/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8821,7 +8821,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317/be905a13-54ce-4015-b726-7b49a1ec6f7e")
 		(sheetname "/MIDI In/")
-		(sheetfile "MIDIIn.kicad_sch")
+		(sheetfile "MIDI-In.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9902,7 +9902,7 @@
 		)
 		(path "/20fe3b49-6fc0-49b3-882e-b60ec2c37622/41b35de0-2035-47fc-be41-fa9fc93ba591")
 		(sheetname "/PWM 3/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10434,7 +10434,7 @@
 		)
 		(path "/6b0ff6e6-8459-48b3-ad82-b75391ec7027/003b2124-2dc9-478e-9f17-a2389bfd869b")
 		(sheetname "/PWM 1/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11613,7 +11613,7 @@
 		)
 		(path "/20fe3b49-6fc0-49b3-882e-b60ec2c37622/a8c5a656-7d1b-4cdd-bab2-b71575b9f744")
 		(sheetname "/PWM 3/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12858,7 +12858,7 @@
 		)
 		(path "/e8fd4e45-6455-499e-826d-b4439d3dc293/003b2124-2dc9-478e-9f17-a2389bfd869b")
 		(sheetname "/PWM 2/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13478,7 +13478,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6b0ff6e6-8459-48b3-ad82-b75391ec7027/2ed9a3f4-436e-4806-9ce4-c26ddd907382")
 		(sheetname "/PWM 1/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14583,7 +14583,7 @@
 		)
 		(path "/0ac9d349-3066-4d6a-93e7-4d57eaae463a/b2fff099-af0c-4ae9-877a-e10ec1acc61c")
 		(sheetname "/Power Switch/")
-		(sheetfile "PowerSwitch.kicad_sch")
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15146,7 +15146,7 @@
 		)
 		(path "/6b0ff6e6-8459-48b3-ad82-b75391ec7027/41b35de0-2035-47fc-be41-fa9fc93ba591")
 		(sheetname "/PWM 1/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16947,7 +16947,7 @@
 		)
 		(path "/d14b4538-8a69-4c12-9312-e76942186e04/003b2124-2dc9-478e-9f17-a2389bfd869b")
 		(sheetname "/PWM 4/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17419,7 +17419,7 @@
 		)
 		(path "/e8fd4e45-6455-499e-826d-b4439d3dc293/a8c5a656-7d1b-4cdd-bab2-b71575b9f744")
 		(sheetname "/PWM 2/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18231,7 +18231,7 @@
 		)
 		(path "/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317/b612171c-51c9-4d61-ae59-88034e9c0c4b")
 		(sheetname "/MIDI In/")
-		(sheetfile "MIDIIn.kicad_sch")
+		(sheetfile "MIDI-In.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18678,7 +18678,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d14b4538-8a69-4c12-9312-e76942186e04/2ed9a3f4-436e-4806-9ce4-c26ddd907382")
 		(sheetname "/PWM 4/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19001,7 +19001,7 @@
 		)
 		(path "/6b0ff6e6-8459-48b3-ad82-b75391ec7027/a8c5a656-7d1b-4cdd-bab2-b71575b9f744")
 		(sheetname "/PWM 1/")
-		(sheetfile "PWMChannel.kicad_sch")
+		(sheetfile "PWM-Channel.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19469,7 +19469,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0ac9d349-3066-4d6a-93e7-4d57eaae463a/d0344390-245c-42c6-bf39-989b8c2ff60d")
 		(sheetname "/Power Switch/")
-		(sheetfile "PowerSwitch.kicad_sch")
+		(sheetfile "Power-Switch.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29097,44 +29097,6 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30017)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 146.549084 88.324905) (xy 146.624329 88.333752) (xy 146.680808 88.349314) (xy 146.765227 88.39344)
-				(xy 146.840783 88.435193) (xy 146.956105 88.470677) (xy 147.004969 88.250278) (xy 146.956105 88.029323)
-				(xy 146.816283 88.071656) (xy 146.786052 88.084851) (xy 146.695975 88.117424) (xy 146.637846 88.125447)
-				(xy 146.560267 88.125219)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 146.952929 88.033864) (xy 146.958606 88.04079) (xy 146.958832 88.041654) (xy 147.004409 88.247748)
-				(xy 147.004408 88.252807) (xy 146.958849 88.458297) (xy 146.953712 88.465632) (xy 146.944893 88.467187)
-				(xy 146.943985 88.466947) (xy 146.841937 88.435548) (xy 146.839719 88.434605) (xy 146.765244 88.393449)
-				(xy 146.680813 88.349316) (xy 146.680809 88.349314) (xy 146.62433 88.333752) (xy 146.560015 88.32619)
-				(xy 146.552198 88.32182) (xy 146.549699 88.313916) (xy 146.559646 88.136295) (xy 146.56353 88.128228)
-				(xy 146.57136 88.125251) (xy 146.637846 88.125447) (xy 146.695975 88.117424) (xy 146.786052 88.084851)
-				(xy 146.815668 88.071924) (xy 146.816929 88.07146) (xy 146.944019 88.032982)
-			)
-		)
-	)
-	(zone
-		(net "GND")
-		(layer "F.Cu")
-		(hatch none 0.1)
 		(priority 30027)
 		(attr
 			(teardrop
@@ -29205,6 +29167,44 @@
 				(xy 147.055645 88.467608) (xy 147.046775 88.466383) (xy 147.041369 88.459244) (xy 147.041266 88.45882)
 				(xy 147.039641 88.451489) (xy 146.99559 88.252803) (xy 146.99559 88.24775) (xy 147.041251 88.041277)
 				(xy 147.046383 88.03394) (xy 147.055201 88.03238)
+			)
+		)
+	)
+	(zone
+		(net "GND")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30017)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 146.549084 88.324905) (xy 146.624329 88.333752) (xy 146.680808 88.349314) (xy 146.765227 88.39344)
+				(xy 146.840783 88.435193) (xy 146.956105 88.470677) (xy 147.004969 88.250278) (xy 146.956105 88.029323)
+				(xy 146.816283 88.071656) (xy 146.786052 88.084851) (xy 146.695975 88.117424) (xy 146.637846 88.125447)
+				(xy 146.560267 88.125219)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 146.952929 88.033864) (xy 146.958606 88.04079) (xy 146.958832 88.041654) (xy 147.004409 88.247748)
+				(xy 147.004408 88.252807) (xy 146.958849 88.458297) (xy 146.953712 88.465632) (xy 146.944893 88.467187)
+				(xy 146.943985 88.466947) (xy 146.841937 88.435548) (xy 146.839719 88.434605) (xy 146.765244 88.393449)
+				(xy 146.680813 88.349316) (xy 146.680809 88.349314) (xy 146.62433 88.333752) (xy 146.560015 88.32619)
+				(xy 146.552198 88.32182) (xy 146.549699 88.313916) (xy 146.559646 88.136295) (xy 146.56353 88.128228)
+				(xy 146.57136 88.125251) (xy 146.637846 88.125447) (xy 146.695975 88.117424) (xy 146.786052 88.084851)
+				(xy 146.815668 88.071924) (xy 146.816929 88.07146) (xy 146.944019 88.032982)
 			)
 		)
 	)

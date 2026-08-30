@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 beat")
-		(date "2026-08-28")
+		(date "2026-08-30")
 		(rev "2026-08-19")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
@@ -1990,7 +1990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72972ae1-7747-4f0d-a299-e8345339dc65")
-		(property "Reference" "#PWR203"
+		(property "Reference" "#PWR0203"
 			(at 166.37 127 0)
 			(hide yes)
 			(show_name no)
@@ -2051,19 +2051,19 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/20fe3b49-6fc0-49b3-882e-b60ec2c37622"
-					(reference "#PWR403")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/6b0ff6e6-8459-48b3-ad82-b75391ec7027"
-					(reference "#PWR203")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d14b4538-8a69-4c12-9312-e76942186e04"
-					(reference "#PWR503")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8fd4e45-6455-499e-826d-b4439d3dc293"
-					(reference "#PWR303")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -2234,7 +2234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e78823d7-d202-449e-b2a4-25cb6fe676b2")
-		(property "Reference" "#PWR201"
+		(property "Reference" "#PWR0201"
 			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2295,19 +2295,19 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/20fe3b49-6fc0-49b3-882e-b60ec2c37622"
-					(reference "#PWR401")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/6b0ff6e6-8459-48b3-ad82-b75391ec7027"
-					(reference "#PWR201")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d14b4538-8a69-4c12-9312-e76942186e04"
-					(reference "#PWR501")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8fd4e45-6455-499e-826d-b4439d3dc293"
-					(reference "#PWR301")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -2324,7 +2324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f99c76f0-9274-49c3-a364-85df246f1c6a")
-		(property "Reference" "#PWR202"
+		(property "Reference" "#PWR0202"
 			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2385,19 +2385,19 @@
 		(instances
 			(project "beat"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/20fe3b49-6fc0-49b3-882e-b60ec2c37622"
-					(reference "#PWR402")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/6b0ff6e6-8459-48b3-ad82-b75391ec7027"
-					(reference "#PWR202")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/d14b4538-8a69-4c12-9312-e76942186e04"
-					(reference "#PWR502")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/e8fd4e45-6455-499e-826d-b4439d3dc293"
-					(reference "#PWR302")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
